@@ -18,6 +18,7 @@
 - 机械臂模型由 SolidWorks 设计并导入 Simulink 仿真
 - 包含正运动学仿真和 PID 控制
 - 子目录：`Code/`（代码）、`Model/`（模型）、`XML/`（配置文件）、`images/`（图片）
+- 详细使用说明请参考 [Planar-Robotic-Arm/README.md](./Planar-Robotic-Arm/README.md)
 
 #### 📁 [3DOF-Robot](./3DOF-Robot)
 **三自由度机器人仿真项目**
