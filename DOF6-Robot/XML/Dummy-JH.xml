@@ -1,0 +1,2431 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/13/25||22:25:02" using="Simscape Multibody Link Version 7.4" from="SolidWorks 28.5.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Dummy-JH" uid="Dummy-JH" version="159">
+<AssemblyFile name="Dummy-JH.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="J4.STEP-1" uid="J4.STEP-1" entityUid="J4.STEP" rigid="true">
+<Transform>
+<Rotation>0.99997413081938946 -3.4547929585388269e-16 -0.0071928917694222628 3.4549200896359745e-16 1 0 0.0071928917694222628 0 0.99997413081938946</Rotation>
+<Translation>-0.00027381789987948602 -3.1111492761665131e-05 0.003120809117420768</Translation>
+</Transform>
+<Instance name="内六角螺丝 M4-16.STEP-1" uid="内六角螺丝 M4-16.STEP-1" grounded="true" entityUid="内六角螺丝 M4-16.STEP*:*默认">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.032677669529664 0.215677669529663 -0.0025000000000000005</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M4-16.STEP-2" uid="内六角螺丝 M4-16.STEP-2" grounded="true" entityUid="内六角螺丝 M4-16.STEP*:*默认">
+<Transform>
+<Rotation>0 -7.0000000000000001e-15 -1 -1.0000000000000026e-15 -1 7.0000000000000001e-15 -1 9.9999999999999771e-16 0</Rotation>
+<Translation>0.0026776695296640003 0.180322330470336 -0.0025000000000000005</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M4-16.STEP-4" uid="内六角螺丝 M4-16.STEP-4" grounded="true" entityUid="内六角螺丝 M4-16.STEP*:*默认">
+<Transform>
+<Rotation>-1.0000680839006293e-15 -1 1.0000000000000002e-14 0 9.9999999999999984e-15 1 -1 1.0000680839006293e-15 0</Rotation>
+<Translation>-0.032677669529664 0.180322330470336 -0.0025000000000000005</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M4-16.STEP-3" uid="内六角螺丝 M4-16.STEP-3" grounded="true" entityUid="内六角螺丝 M4-16.STEP*:*默认">
+<Transform>
+<Rotation>0 1 -2.9999999999999998e-15 0 -3.0000000000000002e-15 -1 -1 0 0</Rotation>
+<Translation>0.0026776695296640003 0.215677669529663 -0.0025000000000000005</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-40.STEP-1" uid="内六角螺丝 M3-40.STEP-1" grounded="true" entityUid="内六角螺丝 M3-40.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>-0.028000000000000001 0.185 -0.061899999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-40.STEP-2" uid="内六角螺丝 M3-40.STEP-2" grounded="true" entityUid="内六角螺丝 M3-40.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>-0.002 0.21099999999999999 -0.06189999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="35-28Motor Assembly.STEP-1" uid="35-28Motor Assembly.STEP-1" grounded="true" entityUid="35-28Motor Assembly.STEP" rigid="true">
+<Transform>
+<Rotation>-1 0 0 0 -1 0 0 0 1</Rotation>
+<Translation>-0.015000000000000001 0.19800000000000001 -0.071000000000000008</Translation>
+</Transform>
+<Instance name="35-28步进电机.STEP-1" uid="35-28步进电机.STEP-1" grounded="true" entityUid="35-28步进电机.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="35Motor Driver.STEP-1" uid="35Motor Driver.STEP-1" grounded="true" entityUid="35Motor Driver.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Dummy-0021.STEP-1" uid="Dummy-0021.STEP-1" grounded="true" entityUid="Dummy-0021.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0020.STEP-1" uid="Dummy-0020.STEP-1" grounded="true" entityUid="Dummy-0020.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="普赢 减速机 minif-11-50.STEP-1" uid="普赢 减速机 minif-11-50.STEP-1" grounded="true" entityUid="普赢 减速机 minif-11-50.STEP*:*默认">
+<Transform>
+<Rotation>0 -1 0 0 0 1 -1 0 0</Rotation>
+<Translation>-0.014944115860433 0.19821779111805801 -0.017500000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 14.STEP-2" uid="内六角螺丝 M3 x 14.STEP-2" grounded="true" entityUid="内六角螺丝 M3 x 14.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -0.99999999999999989 0.86602540378444315 -0.49999999999999212 0 -0.49999999999999212 -0.86602540378444315 0</Rotation>
+<Translation>-0.0044999999999999997 0.13712323961120901 -0.0051250000000000011</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 14.STEP-1" uid="内六角螺丝 M3 x 14.STEP-1" grounded="true" entityUid="内六角螺丝 M3 x 14.STEP*:*默认">
+<Transform>
+<Rotation>0 -1.0000000000000001e-15 -1 6.9999999999999978e-15 -1 1.0000000000000001e-15 -1 -7.0000000000000025e-15 0</Rotation>
+<Translation>-0.0044999999999999997 0.13712323961120901 0.0051249999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 14.STEP-3" uid="内六角螺丝 M3 x 14.STEP-3" grounded="true" entityUid="内六角螺丝 M3 x 14.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 0.86602540378443293 0.50000000000000999 0 0.50000000000000999 -0.86602540378443293 0</Rotation>
+<Translation>-0.0044999999999999997 0.14599999999999999 -0.01025</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 14.STEP-4" uid="内六角螺丝 M3 x 14.STEP-4" grounded="true" entityUid="内六角螺丝 M3 x 14.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 -0.86602540378443849 -0.50000000000000033 0 -0.50000000000000033 0.86602540378443849 0</Rotation>
+<Translation>-0.0044999999999999997 0.14599999999999999 0.010250000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 14.STEP-5" uid="内六角螺丝 M3 x 14.STEP-5" grounded="true" entityUid="内六角螺丝 M3 x 14.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 -0.86602540378443871 0.49999999999999989 0 0.49999999999999989 0.86602540378443871 0</Rotation>
+<Translation>-0.0044999999999999997 0.154876760388791 0.0051249999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 14.STEP-6" uid="内六角螺丝 M3 x 14.STEP-6" grounded="true" entityUid="内六角螺丝 M3 x 14.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>-0.0044999999999999997 0.154876760388791 -0.0051250000000000011</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-35.STEP-1" uid="内六角螺丝 M3-35.STEP-1" grounded="true" entityUid="内六角螺丝 M3-35.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>-0.002 0.185 -0.06189999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0008.STEP-1" uid="Dummy-0008.STEP-1" grounded="true" entityUid="Dummy-0008.STEP*:*默认">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>-0.030000000000000002 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0022.STEP-1" uid="Dummy-0022.STEP-1" grounded="true" entityUid="Dummy-0022.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-35.STEP-2" uid="内六角螺丝 M3-35.STEP-2" grounded="true" entityUid="内六角螺丝 M3-35.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>-0.028000000000000001 0.21099999999999999 -0.061899999999999997</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="J6.STEP-1" uid="J6.STEP-1" entityUid="J6.STEP" rigid="true">
+<Transform>
+<Rotation>0.99997413081938946 0 -0.0071928917694219392 0 1 0 0.0071928917694219392 0 0.99997413081938946</Rotation>
+<Translation>-0.00034574681757346126 -3.1111492761387582e-05 0.013120550425613551</Translation>
+</Transform>
+<Instance name="内六角螺丝 M3-25.STEP-1" uid="内六角螺丝 M3-25.STEP-1" grounded="true" entityUid="内六角螺丝 M3-25.STEP*:*默认">
+<Transform>
+<Rotation>0 -0.38304900806323822 -0.92372802134706822 0 0.92372802134706822 -0.38304900806323816 1 0 0</Rotation>
+<Translation>-0.002 0.21099999999999999 0.1321</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-25.STEP-2" uid="内六角螺丝 M3-25.STEP-2" grounded="true" entityUid="内六角螺丝 M3-25.STEP*:*默认">
+<Transform>
+<Rotation>0 -0.38304900806323822 -0.92372802134706822 0 0.92372802134706822 -0.38304900806323816 1 0 0</Rotation>
+<Translation>-0.028000000000000004 0.185 0.1321</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-25.STEP-4" uid="内六角螺丝 M3-25.STEP-4" grounded="true" entityUid="内六角螺丝 M3-25.STEP*:*默认">
+<Transform>
+<Rotation>0 -0.38304900806323822 -0.92372802134706822 0 0.92372802134706822 -0.38304900806323816 1 0 0</Rotation>
+<Translation>-0.002 0.185 0.1321</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-25.STEP-3" uid="内六角螺丝 M3-25.STEP-3" grounded="true" entityUid="内六角螺丝 M3-25.STEP*:*默认">
+<Transform>
+<Rotation>0 -0.38304900806323822 -0.92372802134706822 0 0.92372802134706822 -0.38304900806323816 1 0 0</Rotation>
+<Translation>-0.028000000000000004 0.21099999999999999 0.1321</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0003.STEP-1" uid="Dummy-0003.STEP-1" grounded="true" entityUid="Dummy-0003.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0050000000000000001 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-5.STEP-1" uid="内六角螺丝 M3-5.STEP-1" grounded="true" entityUid="内六角螺丝 M3-5.STEP*:*默认">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.0019999999999999996 0.21099999999999999 0.16850000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-5.STEP-2" uid="内六角螺丝 M3-5.STEP-2" grounded="true" entityUid="内六角螺丝 M3-5.STEP*:*默认">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.028000000000000001 0.185 0.16850000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="35-20Motor Assembly-1.STEP-1" uid="35-20Motor Assembly-1.STEP-1" grounded="true" entityUid="35-20Motor Assembly-1.STEP" rigid="true">
+<Transform>
+<Rotation>1e-14 1 0 -1 1e-14 0 0 0 1</Rotation>
+<Translation>-0.015000000000000001 0.19800000000000001 0.12400000000000003</Translation>
+</Transform>
+<Instance name="35Motor Driver-2.STEP-1" uid="35Motor Driver-2.STEP-1" grounded="true" entityUid="35Motor Driver-2.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.0015000000000000291</Translation>
+</Transform>
+<Instance name="Dummy-0021.STEP-1" uid="Dummy-0021.STEP-1" grounded="true" entityUid="Dummy-0021.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0020.STEP-1" uid="Dummy-0020.STEP-1" grounded="true" entityUid="Dummy-0020.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="35-20步进电机.STEP-1" uid="35-20步进电机.STEP-1" grounded="true" entityUid="35-20步进电机.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.0080000000000000349</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="内六角螺丝 M3-8.STEP-3" uid="内六角螺丝 M3-8.STEP-3" grounded="true" entityUid="内六角螺丝 M3-8.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.039 0.203629165124599 0.10375</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-8.STEP-1" uid="内六角螺丝 M3-8.STEP-1" grounded="true" entityUid="内六角螺丝 M3-8.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.039 0.19237083487540099 0.10375</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-8.STEP-2" uid="内六角螺丝 M3-8.STEP-2" grounded="true" entityUid="内六角螺丝 M3-8.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.039 0.19800000000000001 0.11349999999999999</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="BASE Moudle-普赢.STEP-1" uid="BASE Moudle-普赢.STEP-1" grounded="true" entityUid="BASE Moudle-普赢.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="内六角螺丝 M4-16.STEP-1" uid="内六角螺丝 M4-16.STEP-1" grounded="true" entityUid="内六角螺丝 M4-16.STEP*:*默认">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>0.0028168366459339999 -0.049000000000000002 -0.017333071619251999</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M4-16.STEP-2" uid="内六角螺丝 M4-16.STEP-2" grounded="true" entityUid="内六角螺丝 M4-16.STEP*:*默认">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>-0.032677669529664 -0.049000000000000002 -0.052677669529664004</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M4-12.STEP-1" uid="内六角螺丝 M4-12.STEP-1" grounded="true" entityUid="内六角螺丝 M4-12.STEP*:*默认">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>0.0275 -0.1245 -0.0625</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M4-12.STEP-3" uid="内六角螺丝 M4-12.STEP-3" grounded="true" entityUid="内六角螺丝 M4-12.STEP*:*默认">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>-0.057500000000000002 -0.1245 -0.0625</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M4-12.STEP-2" uid="内六角螺丝 M4-12.STEP-2" grounded="true" entityUid="内六角螺丝 M4-12.STEP*:*默认">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>0.0275 -0.1245 -0.0074999999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M4-12.STEP-4" uid="内六角螺丝 M4-12.STEP-4" grounded="true" entityUid="内六角螺丝 M4-12.STEP*:*默认">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>-0.057500000000000002 -0.1245 -0.0074999999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-40.STEP-1" uid="内六角螺丝 M3-40.STEP-1" grounded="true" entityUid="内六角螺丝 M3-40.STEP*:*默认">
+<Transform>
+<Rotation>0 -1e-14 1 1 0 0 0 1 1e-14</Rotation>
+<Translation>0.00050000000000000001 -0.12089999999999999 -0.050500000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-40.STEP-2" uid="内六角螺丝 M3-40.STEP-2" grounded="true" entityUid="内六角螺丝 M3-40.STEP*:*默认">
+<Transform>
+<Rotation>0 2.9999999999999998e-15 -1 1 0 0 0 -1 -2.9999999999999998e-15</Rotation>
+<Translation>-0.030499999999999999 -0.12089999999999999 -0.0195</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-10.STEP-2" uid="内六角螺丝 M3-10.STEP-2" grounded="true" entityUid="内六角螺丝 M3-10.STEP*:*默认">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>-0.029999999999999999 -0.044499999999999998 -0.074499999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-10.STEP-1" uid="内六角螺丝 M3-10.STEP-1" grounded="true" entityUid="内六角螺丝 M3-10.STEP*:*默认">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>0 -0.044499999999999998 -0.074499999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-5.STEP-1" uid="内六角螺丝 M3-5.STEP-1" grounded="true" entityUid="内六角螺丝 M3-5.STEP*:*默认">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>0.00050000000000000001 -0.070999999999999994 -0.0195</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-5.STEP-2" uid="内六角螺丝 M3-5.STEP-2" grounded="true" entityUid="内六角螺丝 M3-5.STEP*:*默认">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>-0.030499999999999999 -0.070999999999999994 -0.050500000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="普赢 减速机 minif-11-50.STEP-1" uid="普赢 减速机 minif-11-50.STEP-1" grounded="true" entityUid="普赢 减速机 minif-11-50.STEP*:*默认">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>-0.015055884139567001 -0.069500000000000006 -0.034782208881942001</Translation>
+</Transform>
+</Instance>
+<Instance name="控制器.STEP-1" uid="控制器.STEP-1" grounded="true" entityUid="控制器.STEP" rigid="true">
+<Transform>
+<Rotation>-1 0 0 0 0 1 0 1 0</Rotation>
+<Translation>-0.014999999999999999 -0.118499998480081 -0.035999999999999997</Translation>
+</Transform>
+<Instance name="DC5V_JACK.STEP-1" uid="DC5V_JACK.STEP-1" grounded="true" entityUid="DC5V_JACK.STEP*:*默认">
+<Transform>
+<Rotation>1 -4.0000000000000003e-15 0 0 -2.6e-14 1 -4.0000000000000003e-15 -1 -2.6e-14</Rotation>
+<Translation>0.0046405424190859995 -0.062818488006813999 0.021615381430848998</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0017.STEP-1" uid="Dummy-0017.STEP-1" grounded="true" entityUid="Dummy-0017.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Metal LED Illuminated Latching 16mm Power Push Button ON-OFF Switch 1_2V (1).STEP-1" uid="Metal LED Illuminated Latching 16mm Power Push Button ON-OFF Switch 1_2V (1).STEP-1" grounded="true" entityUid="Metal LED Illuminated Latching 16mm Power Push Button ON-OFF Switch 1_2V (1).STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 8.0000000000000006e-15 -1 0 1 8.0000000000000006e-15</Rotation>
+<Translation>-0.011819753862051001 -0.060048862930871007 0.021500661297530005</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0035.STEP-1" uid="Dummy-0035.STEP-1" grounded="true" entityUid="Dummy-0035.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nuts, style 1-grades ab gb(GB_FASTENER_NUT_SNAB1 M3-N).STEP-1" uid="hex nuts, style 1-grades ab gb(GB_FASTENER_NUT_SNAB1 M3-N).STEP-1" grounded="true" entityUid="hex nuts, style 1-grades ab gb(GB_FASTENER_NUT_SNAB1 M3-N).STEP*:*默认">
+<Transform>
+<Rotation>-0.86602540378443871 -0.49999999999999989 0 -0.49999999999999989 0.86602540378443871 0 0 0 -1</Rotation>
+<Translation>-0.014999999999999999 -0.0385 0.0098999984800809959</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nuts, style 1-grades ab gb(GB_FASTENER_NUT_SNAB1 M3-N).STEP-3" uid="hex nuts, style 1-grades ab gb(GB_FASTENER_NUT_SNAB1 M3-N).STEP-3" grounded="true" entityUid="hex nuts, style 1-grades ab gb(GB_FASTENER_NUT_SNAB1 M3-N).STEP*:*默认">
+<Transform>
+<Rotation>0.86602540378443871 0.49999999999999989 0 -0.49999999999999989 0.86602540378443871 0 0 0 1</Rotation>
+<Translation>0.014999999999999999 -0.0385 0.064099998480080994</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nuts, style 1-grades ab gb(GB_FASTENER_NUT_SNAB1 M3-N).STEP-4" uid="hex nuts, style 1-grades ab gb(GB_FASTENER_NUT_SNAB1 M3-N).STEP-4" grounded="true" entityUid="hex nuts, style 1-grades ab gb(GB_FASTENER_NUT_SNAB1 M3-N).STEP*:*默认">
+<Transform>
+<Rotation>0.86602540378443871 0.49999999999999989 0 -0.49999999999999989 0.86602540378443871 0 0 0 1</Rotation>
+<Translation>0.014999999999999999 -0.0385 0.012299998480080995</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nuts, style 1-grades ab gb(GB_FASTENER_NUT_SNAB1 M3-N).STEP-2" uid="hex nuts, style 1-grades ab gb(GB_FASTENER_NUT_SNAB1 M3-N).STEP-2" grounded="true" entityUid="hex nuts, style 1-grades ab gb(GB_FASTENER_NUT_SNAB1 M3-N).STEP*:*默认">
+<Transform>
+<Rotation>-0.86602540378443871 -0.49999999999999989 0 -0.49999999999999989 0.86602540378443871 0 0 0 -1</Rotation>
+<Translation>-0.014999999999999999 -0.0385 0.061699998480080995</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="42-34Motor Assembly-1.STEP-1" uid="42-34Motor Assembly-1.STEP-1" grounded="true" entityUid="42-34Motor Assembly-1.STEP" rigid="true">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>-0.014999999999999999 -0.10050000000000001 -0.035000000000000003</Translation>
+</Transform>
+<Instance name="Dummy-0018.STEP-1" uid="Dummy-0018.STEP-1" grounded="true" entityUid="Dummy-0018.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="42-34步进电机.STEP-1" uid="42-34步进电机.STEP-1" grounded="true" entityUid="42-34步进电机.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0019.STEP-1" uid="Dummy-0019.STEP-1" grounded="true" entityUid="Dummy-0019.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="内六角螺丝 M3-8.STEP-1" uid="内六角螺丝 M3-8.STEP-1" grounded="true" entityUid="内六角螺丝 M3-8.STEP*:*默认">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>-0.029999999999999999 -0.11600000000000001 -0.074499999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-8.STEP-2" uid="内六角螺丝 M3-8.STEP-2" grounded="true" entityUid="内六角螺丝 M3-8.STEP*:*默认">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>0 -0.11600000000000001 -0.074499999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M4-20.STEP-2" uid="内六角螺丝 M4-20.STEP-2" grounded="true" entityUid="内六角螺丝 M4-20.STEP*:*默认">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>0.0026776695296639999 -0.049000000000000002 -0.052677669529664004</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M4-20.STEP-1" uid="内六角螺丝 M4-20.STEP-1" grounded="true" entityUid="内六角螺丝 M4-20.STEP*:*默认">
+<Transform>
+<Rotation>0 -1 7.0000000000000001e-15 -1 0 0 0 -7.0000000000000001e-15 -1</Rotation>
+<Translation>-0.032677669529664 -0.049000000000000002 -0.017322330470337002</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0004.STEP-1" uid="Dummy-0004.STEP-1" grounded="true" entityUid="Dummy-0004.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0006.STEP-1" uid="Dummy-0006.STEP-1" grounded="true" entityUid="Dummy-0006.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0016.STEP-1" uid="Dummy-0016.STEP-1" grounded="true" entityUid="Dummy-0016.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.001</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0037.STEP-1" uid="Dummy-0037.STEP-1" grounded="true" entityUid="Dummy-0037.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.0050000000000000001 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Base-1" uid="Base-1" grounded="true" entityUid="Base*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.014999999999999993 -0.13950000000000001 0.0049999999999999906</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="J2&amp;J3.STEP-1" uid="J2&amp;J3.STEP-1" entityUid="J2&amp;J3.STEP" rigid="true">
+<Transform>
+<Rotation>0.99997413081938946 -0.00014848390576031555 -0.0071913590187356108 -1.1270281582986816e-16 0.99978690758381994 -0.020643144721244486 0.0071928917694220763 0.020642610700005323 0.99976104391573561</Rotation>
+<Translation>-0.00025213924963859752 0 0.00010698795521963795</Translation>
+</Transform>
+<Instance name="内六角螺丝 M4-16.STEP-1" uid="内六角螺丝 M4-16.STEP-1" grounded="true" entityUid="内六角螺丝 M4-16.STEP*:*默认">
+<Transform>
+<Rotation>-1 7.0000429064354108e-15 -1.0000680839006293e-15 6.9999886963267866e-15 1 -6.9978745020904398e-15 1.0000680839006293e-15 -6.9944050551384862e-15 -1</Rotation>
+<Translation>-0.019499999999999001 0.16367766952966398 0.017677669529663004</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M4-16.STEP-4" uid="内六角螺丝 M4-16.STEP-4" grounded="true" entityUid="内六角螺丝 M4-16.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.010500000000000001 0.017677669529664004 -0.017677669529664</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M4-16.STEP-2" uid="内六角螺丝 M4-16.STEP-2" grounded="true" entityUid="内六角螺丝 M4-16.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 -1 7.0013439490423934e-15 0 -7.0013439490423934e-15 -1</Rotation>
+<Translation>-0.010500000000000002 -0.017677669529664 0.017677669529663004</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M4-16.STEP-3" uid="内六角螺丝 M4-16.STEP-3" grounded="true" entityUid="内六角螺丝 M4-16.STEP*:*默认">
+<Transform>
+<Rotation>-1 -7.0000429064354108e-15 1.0000680839006293e-15 6.9999886963267866e-15 -1 0 1.0000680839006293e-15 0 1</Rotation>
+<Translation>-0.0195 0.128322330470336 -0.017677669529664004</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M4-12.STEP-2" uid="内六角螺丝 M4-12.STEP-2" grounded="true" entityUid="内六角螺丝 M4-12.STEP*:*默认">
+<Transform>
+<Rotation>-1 0 0 0 0.64924416375988181 -0.76058005221260683 0 -0.76058005221260683 -0.64924416375988203</Rotation>
+<Translation>0.0089999999999999976 -0.017677669529663997 -0.017677669529664</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M4-12.STEP-4" uid="内六角螺丝 M4-12.STEP-4" grounded="true" entityUid="内六角螺丝 M4-12.STEP*:*默认">
+<Transform>
+<Rotation>-1 0 0 0 -0.64924416375988669 0.76058005221260272 0 0.76058005221260261 0.64924416375988681</Rotation>
+<Translation>0.0090000000000000011 0.017677669529664 0.017677669529664004</Translation>
+</Transform>
+</Instance>
+<Instance name="平垫片 M3.STEP-6" uid="平垫片 M3.STEP-6" grounded="true" entityUid="平垫片 M3.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 1 -3.0010716134398763e-15 0 -3.0010716134398763e-15 -1 0</Rotation>
+<Translation>0.005000000000000001 0.029499999999999998 0.0155</Translation>
+</Transform>
+</Instance>
+<Instance name="平垫片 M3.STEP-5" uid="平垫片 M3.STEP-5" grounded="true" entityUid="平垫片 M3.STEP*:*默认">
+<Transform>
+<Rotation>-1.0000680839006293e-15 7.0000429064354108e-15 1 7.0013439490423934e-15 1 -6.9999886963267866e-15 -1 7.0013439490423934e-15 -1.0000680839006293e-15</Rotation>
+<Translation>-0.03500000000000001 0.085500000000000007 0.015500000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M4-12.STEP-3" uid="内六角螺丝 M4-12.STEP-3" grounded="true" entityUid="内六角螺丝 M4-12.STEP*:*默认">
+<Transform>
+<Rotation>1 5.3056517512750645e-15 -4.6742124060195067e-15 -6.9999886963267866e-15 0.64924416375988658 -0.76058005221260283 -1.0000680839006293e-15 0.76058005221260272 0.64924416375988669</Rotation>
+<Translation>-0.038999999999999008 0.12832233047033598 0.017677669529664004</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M4-12.STEP-1" uid="内六角螺丝 M4-12.STEP-1" grounded="true" entityUid="内六角螺丝 M4-12.STEP*:*默认">
+<Transform>
+<Rotation>1 -4.5449755070592346e-15 5.323866347772821e-15 -6.9999615912724744e-15 -0.64924416375988181 0.76058005221260672 0 -0.76058005221260672 -0.64924416375988192</Rotation>
+<Translation>-0.038999999999999015 0.163677669529664 -0.017677669529664</Translation>
+</Transform>
+</Instance>
+<Instance name="平垫片 M3.STEP-1" uid="平垫片 M3.STEP-1" grounded="true" entityUid="平垫片 M3.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 -6.9978745020904398e-15 -1 0 -1 6.9978745020904398e-15 0</Rotation>
+<Translation>0.0050000000000000001 0.060499999999999998 0.015500000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="平垫片 M3.STEP-2" uid="平垫片 M3.STEP-2" grounded="true" entityUid="平垫片 M3.STEP*:*默认">
+<Transform>
+<Rotation>-7.0000158013810987e-15 -1.0000680839006293e-15 1 -0.99999999999999989 3.0010716134398763e-15 -6.9999886963267866e-15 -3.0010716134398763e-15 -1 -1.0000680839006293e-15</Rotation>
+<Translation>-0.03500000000000001 0.11650000000000001 0.0155</Translation>
+</Transform>
+</Instance>
+<Instance name="平垫片 M3.STEP-3" uid="平垫片 M3.STEP-3" grounded="true" entityUid="平垫片 M3.STEP*:*默认">
+<Transform>
+<Rotation>0 -7.0000429064354108e-15 1 0 -1 -6.9999615912724744e-15 1 0 0</Rotation>
+<Translation>-0.03500000000000001 0.11649999999999999 -0.015500000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="平垫片 M3.STEP-4" uid="平垫片 M3.STEP-4" grounded="true" entityUid="平垫片 M3.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 -1 9.9989461155303161e-15 0 1.000241556248227e-14 1 0</Rotation>
+<Translation>0.005000000000000001 0.060499999999999998 -0.015500000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="平垫片 M3.STEP-7" uid="平垫片 M3.STEP-7" grounded="true" entityUid="平垫片 M3.STEP*:*默认">
+<Transform>
+<Rotation>7.0000429064354108e-15 1.0009354456386177e-15 1 1 -1.000241556248227e-14 -6.9999886963267866e-15 1.000241556248227e-14 1 -1.0000680839006293e-15</Rotation>
+<Translation>-0.03500000000000001 0.085500000000000007 -0.015500000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="平垫片 M3.STEP-8" uid="平垫片 M3.STEP-8" grounded="true" entityUid="平垫片 M3.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0.005000000000000001 0.029500000000000002 -0.015500000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 10.STEP-2" uid="内六角螺丝 M3 x 10.STEP-2" grounded="true" entityUid="内六角螺丝 M3 x 10.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 -1 9.9989461155303161e-15 0 1.000241556248227e-14 1 0</Rotation>
+<Translation>-0.0044999999999999997 0.060500000000000005 -0.015500000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 10.STEP-4" uid="内六角螺丝 M3 x 10.STEP-4" grounded="true" entityUid="内六角螺丝 M3 x 10.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 1 -3.0010716134398763e-15 0 -3.0010716134398763e-15 -1 0</Rotation>
+<Translation>-0.0044999999999999997 0.029499999999999998 0.015500000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-45.STEP-1" uid="内六角螺丝 M3-45.STEP-1" grounded="true" entityUid="内六角螺丝 M3-45.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 -1 -6.9978745020904398e-15 0 6.9978745020904398e-15 -1</Rotation>
+<Translation>-0.051400000000000015 0.060499999999999991 0.015500000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 10.STEP-3" uid="内六角螺丝 M3 x 10.STEP-3" grounded="true" entityUid="内六角螺丝 M3 x 10.STEP*:*默认">
+<Transform>
+<Rotation>7.0000429064354108e-15 1.0009354456386177e-15 1 1 -1.000241556248227e-14 -6.9999886963267866e-15 1.000241556248227e-14 1 -1.0000680839006293e-15</Rotation>
+<Translation>-0.025499999999999995 0.085499999999999993 -0.015500000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 10.STEP-6" uid="内六角螺丝 M3 x 10.STEP-6" grounded="true" entityUid="内六角螺丝 M3 x 10.STEP*:*默认">
+<Transform>
+<Rotation>-1.0000680839006293e-15 7.0000429064354108e-15 1 7.0013439490423934e-15 1 -6.9999886963267866e-15 -1 7.0013439490423934e-15 -1.0000680839006293e-15</Rotation>
+<Translation>-0.025500000000000002 0.08550000000000002 0.015500000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 10.STEP-7" uid="内六角螺丝 M3 x 10.STEP-7" grounded="true" entityUid="内六角螺丝 M3 x 10.STEP*:*默认">
+<Transform>
+<Rotation>-7.0000158013810987e-15 -1.0000680839006293e-15 1 -0.99999999999999989 3.0010716134398763e-15 -6.9999886963267866e-15 -3.0010716134398763e-15 -1 -1.0000680839006293e-15</Rotation>
+<Translation>-0.025500000000000002 0.11650000000000001 0.015500000000000005</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 10.STEP-8" uid="内六角螺丝 M3 x 10.STEP-8" grounded="true" entityUid="内六角螺丝 M3 x 10.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>-0.0044999999999999997 0.029500000000000002 -0.015500000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-45.STEP-4" uid="内六角螺丝 M3-45.STEP-4" grounded="true" entityUid="内六角螺丝 M3-45.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 -3.0010716134398763e-15 1 0 -1 -3.0010716134398763e-15</Rotation>
+<Translation>-0.051400000000000008 0.029499999999999998 0.015500000000000005</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 10.STEP-1" uid="内六角螺丝 M3 x 10.STEP-1" grounded="true" entityUid="内六角螺丝 M3 x 10.STEP*:*默认">
+<Transform>
+<Rotation>0 -7.0000429064354108e-15 1 0 -1 -6.9999615912724744e-15 1 0 0</Rotation>
+<Translation>-0.025499999999999998 0.11650000000000001 -0.015500000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 10.STEP-5" uid="内六角螺丝 M3 x 10.STEP-5" grounded="true" entityUid="内六角螺丝 M3 x 10.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 -6.9978745020904398e-15 -1 0 -1 6.9978745020904398e-15 0</Rotation>
+<Translation>-0.0045000000000000005 0.060499999999999991 0.015500000000000005</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-45.STEP-3" uid="内六角螺丝 M3-45.STEP-3" grounded="true" entityUid="内六角螺丝 M3-45.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.051400000000000008 0.029500000000000002 -0.015500000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-45.STEP-2" uid="内六角螺丝 M3-45.STEP-2" grounded="true" entityUid="内六角螺丝 M3-45.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 9.9989461155303161e-15 -1 0 1 1.000241556248227e-14</Rotation>
+<Translation>-0.051400000000000015 0.060500000000000005 -0.0155</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-40.STEP-1" uid="内六角螺丝 M3-40.STEP-1" grounded="true" entityUid="内六角螺丝 M3-40.STEP*:*默认">
+<Transform>
+<Rotation>-1 1.0009354456386177e-15 7.0000429064354108e-15 6.9999886963267866e-15 -1.000241556248227e-14 1 1.0000680839006293e-15 1 1.000241556248227e-14</Rotation>
+<Translation>0.015399999999999999 0.085500000000000007 -0.015500000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-40.STEP-2" uid="内六角螺丝 M3-40.STEP-2" grounded="true" entityUid="内六角螺丝 M3-40.STEP*:*默认">
+<Transform>
+<Rotation>-1 -7.0000429064354108e-15 1.0000680839006293e-15 6.9999886963267866e-15 -1 0 1.0000680839006293e-15 0 1</Rotation>
+<Translation>0.015399999999999999 0.11650000000000001 -0.015500000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-40.STEP-3" uid="内六角螺丝 M3-40.STEP-3" grounded="true" entityUid="内六角螺丝 M3-40.STEP*:*默认">
+<Transform>
+<Rotation>-1 -1.0000680839006293e-15 -7.0000158013810987e-15 6.9999886963267866e-15 3.0010716134398763e-15 -0.99999999999999989 1.0000680839006293e-15 -1 -3.0010716134398763e-15</Rotation>
+<Translation>0.0154 0.11650000000000002 0.015500000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-40.STEP-4" uid="内六角螺丝 M3-40.STEP-4" grounded="true" entityUid="内六角螺丝 M3-40.STEP*:*默认">
+<Transform>
+<Rotation>-1 7.0000429064354108e-15 -1.0000680839006293e-15 6.9999886963267866e-15 1 7.0013439490423934e-15 1.0000680839006293e-15 7.0013439490423934e-15 -1</Rotation>
+<Translation>0.015399999999999999 0.085500000000000007 0.015499999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="TB 同步带 GBN1302GT-60.STEP-2" uid="TB 同步带 GBN1302GT-60.STEP-2" grounded="true" entityUid="TB 同步带 GBN1302GT-60.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 1 0 0 0 -1 0</Rotation>
+<Translation>0.0154 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0012（外壳）.STEP-1" uid="Dummy-0012（外壳）.STEP-1" grounded="true" entityUid="Dummy-0012（外壳）.STEP*:*默认">
+<Transform>
+<Rotation>-1 0 1.0000680839006293e-15 0 -1 0 1.0000680839006293e-15 0 1</Rotation>
+<Translation>-0.030000000000000006 0.14600000000000002 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0012（外壳）.STEP-2" uid="Dummy-0012（外壳）.STEP-2" grounded="true" entityUid="Dummy-0012（外壳）.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="TB 同步轮 GPA20GT2060-A-H5.STEP-1" uid="TB 同步轮 GPA20GT2060-A-H5.STEP-1" grounded="true" entityUid="TB 同步轮 GPA20GT2060-A-H5.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0154 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="TB 同步轮 GPA20GT2060-A-H5.STEP-2" uid="TB 同步轮 GPA20GT2060-A-H5.STEP-2" grounded="true" entityUid="TB 同步轮 GPA20GT2060-A-H5.STEP*:*默认">
+<Transform>
+<Rotation>-1 -7.0000429064354108e-15 1.0000680839006293e-15 6.9999886963267866e-15 -1 0 1.0000680839006293e-15 0 1</Rotation>
+<Translation>-0.045399999999999004 0.14600000000000002 0</Translation>
+</Transform>
+</Instance>
+<Instance name="TB 同步带 GBN1302GT-60.STEP-1" uid="TB 同步带 GBN1302GT-60.STEP-1" grounded="true" entityUid="TB 同步带 GBN1302GT-60.STEP*:*默认">
+<Transform>
+<Rotation>-7.0000429064354108e-15 0 1 -1 0 -6.9999615912724744e-15 0 -1 0</Rotation>
+<Translation>-0.045399999999999004 0.14600000000000002 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0013.STEP-1" uid="Dummy-0013.STEP-1" grounded="true" entityUid="Dummy-0013.STEP*:*默认">
+<Transform>
+<Rotation>-1 7.0000429064354108e-15 -1.0000680839006293e-15 6.9999886963267866e-15 1 0 1.0000680839006293e-15 0 -1</Rotation>
+<Translation>-0.032000000000000001 0.14600000000000002 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0036.STEP-1" uid="Dummy-0036.STEP-1" grounded="true" entityUid="Dummy-0036.STEP*:*默认">
+<Transform>
+<Rotation>1.0000680839006293e-15 1.0000409788463172e-15 -1 9.9920072216264089e-16 1 9.9998676873769288e-16 1 -9.9920072216264089e-16 1.0000680839006293e-15</Rotation>
+<Translation>0.0043750000000000013 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0036.STEP-2" uid="Dummy-0036.STEP-2" grounded="true" entityUid="Dummy-0036.STEP*:*默认">
+<Transform>
+<Rotation>1.0000680839006293e-15 1.0000409788463172e-15 -1 9.9920072216264089e-16 1 9.9998676873769288e-16 1 -9.9920072216264089e-16 1.0000680839006293e-15</Rotation>
+<Translation>-0.034375000000001002 0.14600000000000002 1.999824459676669e-15</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0013.STEP-2" uid="Dummy-0013.STEP-2" grounded="true" entityUid="Dummy-0013.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.002 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0036.STEP-3" uid="Dummy-0036.STEP-3" grounded="true" entityUid="Dummy-0036.STEP*:*默认">
+<Transform>
+<Rotation>1.0000680839006293e-15 1.0000409788463172e-15 -1 9.9920072216264089e-16 1 9.9998676873769288e-16 1 -9.9920072216264089e-16 1.0000680839006293e-15</Rotation>
+<Translation>-0.039625 0.14600000000000002 2.0002581405456632e-15</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0036.STEP-4" uid="Dummy-0036.STEP-4" grounded="true" entityUid="Dummy-0036.STEP*:*默认">
+<Transform>
+<Rotation>1.0000680839006293e-15 1.0000409788463172e-15 -1 9.9920072216264089e-16 1 9.9998676873769288e-16 1 -9.9920072216264089e-16 1.0000680839006293e-15</Rotation>
+<Translation>0.0096249999999999999 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="42-34Motor Assembly.STEP-1" uid="42-34Motor Assembly.STEP-1" grounded="true" entityUid="42-34Motor Assembly.STEP" rigid="true">
+<Transform>
+<Rotation>-7.0000429064354108e-15 -1 -1.0000680839006293e-15 -1 6.9999886963267866e-15 0 0 1.0000680839006293e-15 -1</Rotation>
+<Translation>-0.005000000000000001 0.10100000000000001 0</Translation>
+</Transform>
+<Instance name="42-34步进电机.STEP-1" uid="42-34步进电机.STEP-1" grounded="true" entityUid="42-34步进电机.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0018.STEP-1" uid="Dummy-0018.STEP-1" grounded="true" entityUid="Dummy-0018.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0019.STEP-1" uid="Dummy-0019.STEP-1" grounded="true" entityUid="Dummy-0019.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="42-40Motor Assembly.STEP-1" uid="42-40Motor Assembly.STEP-1" grounded="true" entityUid="42-40Motor Assembly.STEP" rigid="true">
+<Transform>
+<Rotation>0 1 -1.0000680839006293e-15 1 0 0 0 -1.0000680839006293e-15 -1</Rotation>
+<Translation>-0.031 0.044999999999999998 0</Translation>
+</Transform>
+<Instance name="Dummy-0018.STEP-1" uid="Dummy-0018.STEP-1" grounded="true" entityUid="Dummy-0018.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0019.STEP-1" uid="Dummy-0019.STEP-1" grounded="true" entityUid="Dummy-0019.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="42-40步进电机.STEP-1" uid="42-40步进电机.STEP-1" grounded="true" entityUid="42-40步进电机.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="NSK 轴承 695ZZ.STEP-2" uid="NSK 轴承 695ZZ.STEP-2" grounded="true" entityUid="NSK 轴承 695ZZ.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 0 -1 0 -1 0 0</Rotation>
+<Translation>0.007000000000000001 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="NSK 轴承 695ZZ.STEP-1" uid="NSK 轴承 695ZZ.STEP-1" grounded="true" entityUid="NSK 轴承 695ZZ.STEP*:*默认">
+<Transform>
+<Rotation>-1.0000680839006293e-15 7.0000429064354108e-15 1 0 1 -6.9999886963267866e-15 -1 0 -1.0000680839006293e-15</Rotation>
+<Translation>-0.036999999999998999 0.14599999999999999 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0009.STEP-1" uid="Dummy-0009.STEP-1" grounded="true" entityUid="Dummy-0009.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="普赢 减速机 minif-11-50.STEP-2" uid="普赢 减速机 minif-11-50.STEP-2" grounded="true" entityUid="普赢 减速机 minif-11-50.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -5.5884139566999995e-05 0.00021779111805799996</Translation>
+</Transform>
+</Instance>
+<Instance name="TB 同步轮 GPA20GT2060-B-H5.STEP-2" uid="TB 同步轮 GPA20GT2060-B-H5.STEP-2" grounded="true" entityUid="TB 同步轮 GPA20GT2060-B-H5.STEP*:*默认">
+<Transform>
+<Rotation>-1 1.0000680839006293e-15 7.0000429064354108e-15 6.9999886963267866e-15 0 1 1.0000680839006293e-15 1 0</Rotation>
+<Translation>-0.04540000000000001 0.10099999999999999 0</Translation>
+</Transform>
+</Instance>
+<Instance name="TB 同步轮 GPA20GT2060-B-H5.STEP-1" uid="TB 同步轮 GPA20GT2060-B-H5.STEP-1" grounded="true" entityUid="TB 同步轮 GPA20GT2060-B-H5.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.0154 0.044999999999999991 0</Translation>
+</Transform>
+</Instance>
+<Instance name="普赢 减速机 minif-11-50.STEP-1" uid="普赢 减速机 minif-11-50.STEP-1" grounded="true" entityUid="普赢 减速机 minif-11-50.STEP*:*默认">
+<Transform>
+<Rotation>-1 0 0 0 -1 0 0 0 1</Rotation>
+<Translation>-0.030000000000000002 0.14605588413956697 0.00021779111805800028</Translation>
+</Transform>
+</Instance>
+<Instance name="D字轴 5-30.STEP-1" uid="D字轴 5-30.STEP-1" grounded="true" entityUid="D字轴 5-30.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.002 -5.5884139566999995e-05 0.00021779111805799996</Translation>
+</Transform>
+</Instance>
+<Instance name="D字轴 5-30.STEP-2" uid="D字轴 5-30.STEP-2" grounded="true" entityUid="D字轴 5-30.STEP*:*默认">
+<Transform>
+<Rotation>-1 -7.0000429064354108e-15 1.0000680839006293e-15 6.9999886963267866e-15 -1 0 1.0000680839006293e-15 0 1</Rotation>
+<Translation>-0.031999999999999001 0.14605588413956697 0.00021779111805800028</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="J5.STEP-1" uid="J5.STEP-1" entityUid="J5.STEP" rigid="true">
+<Transform>
+<Rotation>0.99997413081938946 0 -0.0071928917694219739 0 1 1.8116126861647542e-16 0.0071928917694219739 -1.8115756019052607e-16 0.99997413081938946</Rotation>
+<Translation>-0.00028820368341804666 -3.1111492761332071e-05 0.0051207573790594818</Translation>
+</Transform>
+<Instance name="平垫片 M3.STEP-1" uid="平垫片 M3.STEP-1" grounded="true" entityUid="平垫片 M3.STEP*:*默认">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.0019000000000000002 0.21099999999999999 0.046999999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="平垫片 M3.STEP-3" uid="平垫片 M3.STEP-3" grounded="true" entityUid="平垫片 M3.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>-0.0023999999999999994 0.21099999999999997 0.072999999999999995</Translation>
+</Transform>
+</Instance>
+<Instance name="平垫片 M3.STEP-2" uid="平垫片 M3.STEP-2" grounded="true" entityUid="平垫片 M3.STEP*:*默认">
+<Transform>
+<Rotation>0 0 1 0 -1 0 1 0 0</Rotation>
+<Translation>-0.0019000000000000002 0.18499999999999997 0.072999999999999995</Translation>
+</Transform>
+</Instance>
+<Instance name="平垫片 M3.STEP-4" uid="平垫片 M3.STEP-4" grounded="true" entityUid="平垫片 M3.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 0 -1 0 -1 0 0</Rotation>
+<Translation>-0.0023999999999999998 0.185 0.046999999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="TB 同步带 GBN1502GT-60.STEP-1" uid="TB 同步带 GBN1502GT-60.STEP-1" grounded="true" entityUid="TB 同步带 GBN1502GT-60.STEP*:*默认">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.0077500000000379991 0.19800000000000001 0.115</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0007(外壳).STEP-1" uid="Dummy-0007(外壳).STEP-1" grounded="true" entityUid="Dummy-0007(外壳).STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.005000000000000001 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-10.STEP-2" uid="内六角螺丝 M3-10.STEP-2" grounded="true" entityUid="内六角螺丝 M3-10.STEP*:*默认">
+<Transform>
+<Rotation>-1 0 0 0 -0.381849318686593 0.92422459273630297 0 0.92422459273630309 0.381849318686593</Rotation>
+<Translation>0.0016000000000000001 0.21099999999999999 0.029000000000000005</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-10.STEP-1" uid="内六角螺丝 M3-10.STEP-1" grounded="true" entityUid="内六角螺丝 M3-10.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>-0.0014 0.1905 0.018499999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-10.STEP-3" uid="内六角螺丝 M3-10.STEP-3" grounded="true" entityUid="内六角螺丝 M3-10.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>-0.0014 0.20549999999999999 0.018500000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-10.STEP-4" uid="内六角螺丝 M3-10.STEP-4" grounded="true" entityUid="内六角螺丝 M3-10.STEP*:*默认">
+<Transform>
+<Rotation>-1 0 0 0 -0.381849318686593 0.92422459273630297 0 0.92422459273630309 0.381849318686593</Rotation>
+<Translation>0.0016000000000000001 0.185 0.028999999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-10.STEP-5" uid="内六角螺丝 M3-10.STEP-5" grounded="true" entityUid="内六角螺丝 M3-10.STEP*:*默认">
+<Transform>
+<Rotation>-1 0 0 0 -0.381849318686593 0.92422459273630297 0 0.92422459273630309 0.381849318686593</Rotation>
+<Translation>0.0016000000000000001 0.19800000000000001 0.029000000000000005</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-25.STEP-4" uid="内六角螺丝 M3-25.STEP-4" grounded="true" entityUid="内六角螺丝 M3-25.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.038800000000000001 0.21099999999999997 0.072999999999999982</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-25.STEP-1" uid="内六角螺丝 M3-25.STEP-1" grounded="true" entityUid="内六角螺丝 M3-25.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 -1 -7.0000000000000001e-15 0 6.9999999999999986e-15 -1</Rotation>
+<Translation>-0.038800000000000008 0.185 0.047</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0011.STEP-1" uid="Dummy-0011.STEP-1" grounded="true" entityUid="Dummy-0011.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-25.STEP-2" uid="内六角螺丝 M3-25.STEP-2" grounded="true" entityUid="内六角螺丝 M3-25.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1e-14 -1 0 1 1e-14</Rotation>
+<Translation>-0.038800000000000001 0.18499999999999997 0.072999999999999995</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-25.STEP-3" uid="内六角螺丝 M3-25.STEP-3" grounded="true" entityUid="内六角螺丝 M3-25.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 -2.9999999999999998e-15 1 0 -1 -2.9999999999999998e-15</Rotation>
+<Translation>-0.038800000000000008 0.21099999999999999 0.047</Translation>
+</Transform>
+</Instance>
+<Instance name="普赢改轴输入.STEP-1" uid="普赢改轴输入.STEP-1" grounded="true" entityUid="普赢改轴输入.STEP" rigid="true">
+<Transform>
+<Rotation>-1 0 0 0 -1 0 0 0 1</Rotation>
+<Translation>-0.033599999999999998 0.34399999999999997 0.11500000000000002</Translation>
+</Transform>
+<Instance name="TB 同步轮 GPA20GT2060-A-H5.STEP-1" uid="TB 同步轮 GPA20GT2060-A-H5.STEP-1" grounded="true" entityUid="TB 同步轮 GPA20GT2060-A-H5.STEP*:*默认">
+<Transform>
+<Rotation>-1 0 0 0 -1 0 0 0 1</Rotation>
+<Translation>-0.040899999999999007 0.14600000000000002 -3.0114799542957371e-15</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0036.STEP-1" uid="Dummy-0036.STEP-1" grounded="true" entityUid="Dummy-0036.STEP*:*默认">
+<Transform>
+<Rotation>1.0000680839006293e-15 6.9999999999999986e-15 -1 6.9999999999999994e-15 1 7.0000000000000017e-15 1 -7.0000000000000001e-15 1.0000680839006293e-15</Rotation>
+<Translation>-0.035125000000038001 0.14600000000000002 -3.0114799542957371e-15</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0036.STEP-2" uid="Dummy-0036.STEP-2" grounded="true" entityUid="Dummy-0036.STEP*:*默认">
+<Transform>
+<Rotation>1.0000680839006293e-15 6.9999999999999986e-15 -1 6.9999999999999994e-15 1 7.0000000000000017e-15 1 -7.0000000000000001e-15 1.0000680839006293e-15</Rotation>
+<Translation>-0.029875000000038003 0.14600000000000002 -3.0114799542957371e-15</Translation>
+</Transform>
+</Instance>
+<Instance name="NSK 轴承 695ZZ.STEP-1" uid="NSK 轴承 695ZZ.STEP-1" grounded="true" entityUid="NSK 轴承 695ZZ.STEP*:*默认">
+<Transform>
+<Rotation>0 0 -1 0 -1 0 -1 0 0</Rotation>
+<Translation>-0.032500000000038005 0.14600000000000002 -9.9920072216264089e-16</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 16.STEP-1" uid="内六角螺丝 M3 x 16.STEP-1" grounded="true" entityUid="内六角螺丝 M3 x 16.STEP*:*默认">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.014500000000000006 0.15925825214724804 0.013258252147246991</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-8.STEP-1" uid="内六角螺丝 M3-8.STEP-1" grounded="true" entityUid="内六角螺丝 M3-8.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.033500000000000009 0.13274174785275203 0.013258252147247018</Translation>
+</Transform>
+</Instance>
+<Instance name="普赢min8-50 谐波减速器.STEP-1" uid="普赢min8-50 谐波减速器.STEP-1" grounded="true" entityUid="普赢min8-50 谐波减速器.STEP*:*默认">
+<Transform>
+<Rotation>0 0 1 0 -1 0 1 0 0</Rotation>
+<Translation>-0.091900000000000009 0.14600000000000002 -1.0130785099704553e-15</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-8.STEP-2" uid="内六角螺丝 M3-8.STEP-2" grounded="true" entityUid="内六角螺丝 M3-8.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.033500000000000002 0.15925825214724804 -0.013258252147249017</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 16.STEP-2" uid="内六角螺丝 M3 x 16.STEP-2" grounded="true" entityUid="内六角螺丝 M3 x 16.STEP*:*默认">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.014500000000000002 0.13274174785275203 -0.013258252147248989</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0026.STEP-1" uid="Dummy-0026.STEP-1" grounded="true" entityUid="Dummy-0026.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0027.STEP-1" uid="Dummy-0027.STEP-1" grounded="true" entityUid="Dummy-0027.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="D字轴5-28.STEP-1" uid="D字轴5-28.STEP-1" grounded="true" entityUid="D字轴5-28.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="TB 同步轮 GPA20GT2060-B-H5.STEP-1" uid="TB 同步轮 GPA20GT2060-B-H5.STEP-1" grounded="true" entityUid="TB 同步轮 GPA20GT2060-B-H5.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>0.0077500000000379991 0.19800000000000001 0.059999999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="35-20Motor Assembly.STEP-1" uid="35-20Motor Assembly.STEP-1" grounded="true" entityUid="35-20Motor Assembly.STEP" rigid="true">
+<Transform>
+<Rotation>0 0 1 -1 0 0 0 -1 0</Rotation>
+<Translation>-0.046899999999999997 0.19800000000000001 0.060000000000000012</Translation>
+</Transform>
+<Instance name="35Motor Driver-1.STEP-1" uid="35Motor Driver-1.STEP-1" grounded="true" entityUid="35Motor Driver-1.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.0014999999999999944</Translation>
+</Transform>
+<Instance name="Dummy-0021.STEP-1" uid="Dummy-0021.STEP-1" grounded="true" entityUid="Dummy-0021.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0020.STEP-1" uid="Dummy-0020.STEP-1" grounded="true" entityUid="Dummy-0020.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="35-20步进电机.STEP-1" uid="35-20步进电机.STEP-1" grounded="true" entityUid="35-20步进电机.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.0079999999999999932</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="内六角螺丝 M3 x 16.STEP-1" uid="内六角螺丝 M3 x 16.STEP-1" grounded="true" entityUid="内六角螺丝 M3 x 16.STEP*:*默认">
+<Transform>
+<Rotation>-0.13013383879635099 -0.99149643670571297 0 -0.99149643670571286 0.13013383879635099 0 0 0 -1</Rotation>
+<Translation>-0.0061232396112090009 0.19287499999999999 0.007000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 16.STEP-3" uid="内六角螺丝 M3 x 16.STEP-3" grounded="true" entityUid="内六角螺丝 M3 x 16.STEP*:*默认">
+<Transform>
+<Rotation>-0.79359418255072722 0.60844742864247803 0 0.60844742864247803 0.79359418255072722 0 0 0 -1</Rotation>
+<Translation>-0.023876760388790993 0.19287499999999999 0.0069999999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 16.STEP-2" uid="内六角螺丝 M3 x 16.STEP-2" grounded="true" entityUid="内六角螺丝 M3 x 16.STEP*:*默认">
+<Transform>
+<Rotation>0.13013383879634494 0.99149643670571375 0 0.99149643670571364 -0.13013383879634494 0 0 0 -1</Rotation>
+<Translation>-0.023876760388790993 0.203125 0.007000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-8.STEP-3" uid="内六角螺丝 M3-8.STEP-3" grounded="true" entityUid="内六角螺丝 M3-8.STEP*:*默认">
+<Transform>
+<Rotation>-1 0 0 0 -0.38184931868659294 -0.92422459273630286 0 -0.92422459273630297 0.38184931868659294</Rotation>
+<Translation>0.0011000000000000001 0.21099999999999999 0.047</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 16.STEP-6" uid="内六角螺丝 M3 x 16.STEP-6" grounded="true" entityUid="内六角螺丝 M3 x 16.STEP*:*默认">
+<Transform>
+<Rotation>0.79359418255072267 -0.60844742864248369 0 -0.60844742864248369 -0.79359418255072267 0 0 0 -1</Rotation>
+<Translation>-0.0061232396112090009 0.203125 0.0070000000000000027</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 16.STEP-5" uid="内六角螺丝 M3 x 16.STEP-5" grounded="true" entityUid="内六角螺丝 M3 x 16.STEP*:*默认">
+<Transform>
+<Rotation>-0.92372802134706822 -0.38304900806323822 0 -0.38304900806323816 0.92372802134706822 0 0 0 -1</Rotation>
+<Translation>-0.015000000000000001 0.18775 0.007000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-8.STEP-2" uid="内六角螺丝 M3-8.STEP-2" grounded="true" entityUid="内六角螺丝 M3-8.STEP*:*默认">
+<Transform>
+<Rotation>-1 0 0 0 0.381849318686593 -0.92422459273630297 0 -0.92422459273630309 -0.381849318686593</Rotation>
+<Translation>0.0011000000000000001 0.185 0.047</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 16.STEP-4" uid="内六角螺丝 M3 x 16.STEP-4" grounded="true" entityUid="内六角螺丝 M3 x 16.STEP*:*默认">
+<Transform>
+<Rotation>0.92372802134707099 0.38304900806323106 0 0.383049008063231 -0.92372802134707099 0 0 0 -1</Rotation>
+<Translation>-0.015000000000000001 0.20824999999999999 0.007000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-8.STEP-1" uid="内六角螺丝 M3-8.STEP-1" grounded="true" entityUid="内六角螺丝 M3-8.STEP*:*默认">
+<Transform>
+<Rotation>-1 0 0 0 -0.38184931868659294 0.92422459273630286 0 0.92422459273630297 0.38184931868659294</Rotation>
+<Translation>0.0011000000000000001 0.21099999999999997 0.072999999999999982</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3-8.STEP-4" uid="内六角螺丝 M3-8.STEP-4" grounded="true" entityUid="内六角螺丝 M3-8.STEP*:*默认">
+<Transform>
+<Rotation>-1 0 0 0 0.381849318686593 0.92422459273630297 0 0.92422459273630309 -0.381849318686593</Rotation>
+<Translation>0.0011000000000000001 0.18499999999999997 0.072999999999999982</Translation>
+</Transform>
+</Instance>
+<Instance name="Dummy-0002.STEP-1" uid="Dummy-0002.STEP-1" grounded="true" entityUid="Dummy-0002.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="J1.STEP-1" uid="J1.STEP-1" entityUid="J1.STEP" rigid="true">
+<Transform>
+<Rotation>0.99997413081938946 0 -0.0071928917694219097 0 1 0 0.0071928917694219097 0 0.99997413081938946</Rotation>
+<Translation>0.49973492616005583 0 0.0037034338399309155</Translation>
+</Transform>
+<Instance name="Dummy-0001.STEP-1" uid="Dummy-0001.STEP-1" grounded="true" entityUid="Dummy-0001.STEP*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.50000000000000011 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 14.STEP-12" uid="内六角螺丝 M3 x 14.STEP-12" grounded="true" entityUid="内六角螺丝 M3 x 14.STEP*:*默认">
+<Transform>
+<Rotation>0 0 1 -0.86602540378443849 -0.50000000000000033 0 0.50000000000000033 -0.86602540378443849 0</Rotation>
+<Translation>-0.52550000000000008 0 -0.010250000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 14.STEP-5" uid="内六角螺丝 M3 x 14.STEP-5" grounded="true" entityUid="内六角螺丝 M3 x 14.STEP*:*默认">
+<Transform>
+<Rotation>-6.9996092255664166e-15 -1 0 0 0 -1 1 -6.9996092255664166e-15 0</Rotation>
+<Translation>-0.52012500000003203 -0.044499999999999998 -0.026123239611228005</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 14.STEP-6" uid="内六角螺丝 M3 x 14.STEP-6" grounded="true" entityUid="内六角螺丝 M3 x 14.STEP*:*默认">
+<Transform>
+<Rotation>0 0 1 0.86602540378444326 -0.49999999999999217 0 0.49999999999999217 0.86602540378444326 0</Rotation>
+<Translation>-0.52550000000000008 -0.0088767603887899994 0.0051250000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 14.STEP-1" uid="内六角螺丝 M3 x 14.STEP-1" grounded="true" entityUid="内六角螺丝 M3 x 14.STEP*:*默认">
+<Transform>
+<Rotation>0.86602540378443871 0.49999999999999994 0 0 0 -1 -0.49999999999999994 0.86602540378443871 0</Rotation>
+<Translation>-0.50475000000000003 -0.044499999999999998 -0.034999999999963005</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 14.STEP-2" uid="内六角螺丝 M3 x 14.STEP-2" grounded="true" entityUid="内六角螺丝 M3 x 14.STEP*:*默认">
+<Transform>
+<Rotation>0 0 1 0.86602540378443293 0.50000000000000999 0 -0.50000000000000999 0.86602540378443293 0</Rotation>
+<Translation>-0.52550000000000008 0 0.010250000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 14.STEP-9" uid="内六角螺丝 M3 x 14.STEP-9" grounded="true" entityUid="内六角螺丝 M3 x 14.STEP*:*默认">
+<Transform>
+<Rotation>-0.86602540378443871 0.5 0 0 0 -1 -0.5 -0.86602540378443871 0</Rotation>
+<Translation>-0.52012499999996809 -0.044499999999999998 -0.043876760388809</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 14.STEP-11" uid="内六角螺丝 M3 x 14.STEP-11" grounded="true" entityUid="内六角螺丝 M3 x 14.STEP*:*默认">
+<Transform>
+<Rotation>0 0 1 7.0000000000000001e-15 -1 0 1 7.0000000000000009e-15 0</Rotation>
+<Translation>-0.52550000000000008 -0.0088767603887909986 -0.0051250000000000011</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 14.STEP-4" uid="内六角螺丝 M3 x 14.STEP-4" grounded="true" entityUid="内六角螺丝 M3 x 14.STEP*:*默认">
+<Transform>
+<Rotation>0.86602540378443849 -0.50000000000000044 0 0 0 -1 0.50000000000000044 0.86602540378443849 0</Rotation>
+<Translation>-0.50987500000003194 -0.044499999999999998 -0.026123239611191</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 14.STEP-7" uid="内六角螺丝 M3 x 14.STEP-7" grounded="true" entityUid="内六角螺丝 M3 x 14.STEP*:*默认">
+<Transform>
+<Rotation>0 1 0 0 0 -1 -1 0 0</Rotation>
+<Translation>-0.50987499999996799 -0.044499999999999998 -0.043876760388771995</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 14.STEP-8" uid="内六角螺丝 M3 x 14.STEP-8" grounded="true" entityUid="内六角螺丝 M3 x 14.STEP*:*默认">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.52550000000000008 0.0088767603887899994 0.0051250000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 14.STEP-10" uid="内六角螺丝 M3 x 14.STEP-10" grounded="true" entityUid="内六角螺丝 M3 x 14.STEP*:*默认">
+<Transform>
+<Rotation>0 0 1 -0.86602540378443871 0.49999999999999989 0 -0.49999999999999989 -0.86602540378443871 0</Rotation>
+<Translation>-0.52550000000000008 0.0088767603887899994 -0.0051250000000000011</Translation>
+</Transform>
+</Instance>
+<Instance name="内六角螺丝 M3 x 14.STEP-3" uid="内六角螺丝 M3 x 14.STEP-3" grounded="true" entityUid="内六角螺丝 M3 x 14.STEP*:*默认">
+<Transform>
+<Rotation>-0.86602540378444315 -0.49999999999999223 0 0 0 -1 0.49999999999999223 -0.86602540378444315 0</Rotation>
+<Translation>-0.52525000000000011 -0.044499999999999998 -0.035000000000037002</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tools-1" uid="Tools-1" entityUid="Tools*:*默认">
+<Transform>
+<Rotation>0.99997413081938946 0 -0.0071928917694219392 0 1 0 0.0071928917694219392 0 0.99997413081938946</Rotation>
+<Translation>-0.016564553934781328 0.19796888850723862 0.18250827222295871</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="同心1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BASE Moudle-普赢.STEP-1</Uid>
+<Uid>Dummy-0004.STEP-1</Uid>
+</InstancePath>
+<Position>-0.014999999999999999 -0.037999999999999999 -0.035000000000000003</Position>
+<Axis>-2.9495829559648152e-16 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>J1.STEP-1</Uid>
+<Uid>Dummy-0001.STEP-1</Uid>
+</InstancePath>
+<Position>-0.015000000000000001 -0.031 -0.035000000000000003</Position>
+<Axis>1.9853773687860448e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE Moudle-普赢.STEP-1</Uid>
+<Uid>普赢 减速机 minif-11-50.STEP-1</Uid>
+</InstancePath>
+<Position>-0.032000000000000001 5.588413956664727e-05 0.013032208881942342</Position>
+<Axis>-1 -1.72864757664679e-16 1.806363733926255e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>J1.STEP-1</Uid>
+<Uid>Dummy-0001.STEP-1</Uid>
+</InstancePath>
+<Position>-0.047500000000000007 -0.037499999999999999 -0.067499999999999991</Position>
+<Axis>1.72864757664679e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>J1.STEP-1</Uid>
+<Uid>Dummy-0001.STEP-1</Uid>
+</InstancePath>
+<Position>-0.028000000000000004 0 0</Position>
+<Axis>-1 -1.7286475766467897e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>J2&amp;J3.STEP-1</Uid>
+<Uid>普赢 减速机 minif-11-50.STEP-2</Uid>
+</InstancePath>
+<Position>-0.01409999999998226 5.5884139566651499e-05 -0.00021779111805766646</Position>
+<Axis>1 2.8915671940188403e-16 -1.8041124150158794e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>J1.STEP-1</Uid>
+<Uid>Dummy-0001.STEP-1</Uid>
+</InstancePath>
+<Position>-0.032000000000000001 0 0</Position>
+<Axis>1 1.7286475766467897e-16 -1.8041124150158794e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>J2&amp;J3.STEP-1</Uid>
+<Uid>普赢 减速机 minif-11-50.STEP-2</Uid>
+</InstancePath>
+<Position>-0.032000000000000008 5.5884139566647988e-05 0.01303220888194234</Position>
+<Axis>-1 -1.7287603640281368e-16 1.8127860323957634e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>J2&amp;J3.STEP-1</Uid>
+<Uid>普赢 减速机 minif-11-50.STEP-1</Uid>
+</InstancePath>
+<Position>-0.014099999999982266 5.5884139566642066e-05 -0.00021779111805766624</Position>
+<Axis>1 2.8912961434757189e-16 -1.8041124150158794e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>J4.STEP-1</Uid>
+<Uid>Dummy-0008.STEP-1</Uid>
+</InstancePath>
+<Position>-0.043000000000000003 0.14600000000000002 0</Position>
+<Axis>1 1.7286475766467905e-16 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>J2&amp;J3.STEP-1</Uid>
+<Uid>普赢 减速机 minif-11-50.STEP-1</Uid>
+</InstancePath>
+<Position>-0.032000000000000008 5.588413956661431e-05 0.013032208881942339</Position>
+<Axis>-1 -1.7287603640281368e-16 1.8041124150158794e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>J4.STEP-1</Uid>
+<Uid>Dummy-0008.STEP-1</Uid>
+</InstancePath>
+<Position>-0.032000000000000001 0.14599999999999999 0</Position>
+<Axis>1 1.7286475766467905e-16 1.8041124150158794e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>J4.STEP-1</Uid>
+<Uid>普赢 减速机 minif-11-50.STEP-1</Uid>
+</InstancePath>
+<Position>-0.014099999999982262 5.588413956665074e-05 -0.00021779111805766971</Position>
+<Axis>1 2.8883145875013838e-16 -1.8063637339262799e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>J5.STEP-1</Uid>
+<Uid>Dummy-0011.STEP-1</Uid>
+</InstancePath>
+<Position>-0.015000000000000003 0.19800000000000001 0.0060000000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>J4.STEP-1</Uid>
+<Uid>普赢 减速机 minif-11-50.STEP-1</Uid>
+</InstancePath>
+<Position>-0.032000000000000001 5.5884139566645535e-05 0.013032208881942342</Position>
+<Axis>-1 -1.7260498585969231e-16 1.8063637339262799e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>J5.STEP-1</Uid>
+<Uid>Dummy-0011.STEP-1</Uid>
+</InstancePath>
+<Position>-0.035000000000000003 0.2165 0.012500000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>J5.STEP-1</Uid>
+<Uid>普赢改轴输入.STEP-1</Uid>
+<Uid>普赢min8-50 谐波减速器.STEP-1</Uid>
+</InstancePath>
+<Position>0 0 0.088400000000000006</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>J6.STEP-1</Uid>
+<Uid>Dummy-0003.STEP-1</Uid>
+</InstancePath>
+<Position>-0.035500000000000004 0.19800000000000001 0.10700000000000001</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>J5.STEP-1</Uid>
+<Uid>普赢改轴输入.STEP-1</Uid>
+<Uid>普赢min8-50 谐波减速器.STEP-1</Uid>
+</InstancePath>
+<Position>0 0 0.091900000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>J6.STEP-1</Uid>
+<Uid>Dummy-0003.STEP-1</Uid>
+</InstancePath>
+<Position>-0.038600000000000002 0.19800000000000001 0.11500000000000002</Position>
+<Axis>1 1.801766133751985e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>J6.STEP-1</Uid>
+<Uid>35-20Motor Assembly-1.STEP-1</Uid>
+<Uid>35-20步进电机.STEP-1</Uid>
+</InstancePath>
+<Position>0 0 0.07149999999999998</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tools-1</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>J6.STEP-1</Uid>
+<Uid>Dummy-0003.STEP-1</Uid>
+</InstancePath>
+<Position>0 0 0.16950000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tools-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="J4.STEP" uid="J4.STEP" version="138">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="J4.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="35-28Motor Assembly.STEP" uid="35-28Motor Assembly.STEP" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="35-28Motor Assembly.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="35Motor Driver.STEP" uid="35Motor Driver.STEP" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="35Motor Driver.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="J6.STEP" uid="J6.STEP" version="139">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="J6.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="35-20Motor Assembly-1.STEP" uid="35-20Motor Assembly-1.STEP" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="35-20Motor Assembly-1.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="35Motor Driver-2.STEP" uid="35Motor Driver-2.STEP" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="35Motor Driver-2.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="BASE Moudle-普赢.STEP" uid="BASE Moudle-普赢.STEP" version="153">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="BASE Moudle-普赢.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="控制器.STEP" uid="控制器.STEP" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="控制器.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="42-34Motor Assembly-1.STEP" uid="42-34Motor Assembly-1.STEP" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="42-34Motor Assembly-1.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="J2&amp;J3.STEP" uid="J2&amp;J3.STEP" version="140">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="J2&amp;J3.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="42-34Motor Assembly.STEP" uid="42-34Motor Assembly.STEP" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="42-34Motor Assembly.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="42-40Motor Assembly.STEP" uid="42-40Motor Assembly.STEP" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="42-40Motor Assembly.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="J5.STEP" uid="J5.STEP" version="148">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="J5.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="普赢改轴输入.STEP" uid="普赢改轴输入.STEP" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="普赢改轴输入.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="35-20Motor Assembly.STEP" uid="35-20Motor Assembly.STEP" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="35-20Motor Assembly.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="35Motor Driver-1.STEP" uid="35Motor Driver-1.STEP" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="35Motor Driver-1.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="J1.STEP" uid="J1.STEP" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="J1.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="35-20步进电机.STEP" uid="35-20步进电机.STEP*:*默认" version="146">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="35-20步进电机.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.2009518069883125</Mass>
+<CenterOfMass>0 -0.0003068043075800061 0.037164058265050141</CenterOfMass>
+<Inertia>2.9630794141956167e-05 2.8591499978114883e-05 3.9503766580231846e-05 -4.6725526452814515e-07 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="35-20步进电机.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="35-28步进电机.STEP" uid="35-28步进电机.STEP*:*默认" version="146">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="35-28步进电机.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.25666247251792301</Mass>
+<CenterOfMass>0 -0.0002402099512062296 0.033867200540235162</CenterOfMass>
+<Inertia>4.4810518542241168e-05 4.3767118644537692e-05 5.0117952640971521e-05 -6.6367058584305255e-07 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="35-28步进电机.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="42-34步进电机.STEP" uid="42-34步进电机.STEP*:*默认" version="155">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="42-34步进电机.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.33064258355160775</Mass>
+<CenterOfMass>-1.2504691901357261e-08 0.0080909736783957749 0.00015009270162265117</CenterOfMass>
+<Inertia>9.5874740267913629e-05 0.00010895078289816304 9.4765552261487726e-05 6.9796497935214097e-07 -9.326892199847374e-13 1.0843499847085881e-11</Inertia>
+</MassProperties>
+<GeometryFile name="42-34步进电机.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="42-40步进电机.STEP" uid="42-40步进电机.STEP*:*默认" version="155">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="42-40步进电机.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.3716579458301425</Mass>
+<CenterOfMass>-1.1124701309564818e-08 0.011028376920396496 0.00013352879763112884</CenterOfMass>
+<Inertia>0.00012660970660975776 0.00012497187316991729 0.00012549969658583415 8.4511820671110114e-07 -8.6420437222611322e-13 1.0023764485684379e-11</Inertia>
+</MassProperties>
+<GeometryFile name="42-40步进电机.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Base" uid="Base*:*默认" version="187">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.1406588074428221</Mass>
+<CenterOfMass>-4.4043012928464243e-07 0.0071779688212761988 0.0014000514330263726</CenterOfMass>
+<Inertia>0.013653282314870376 0.027403034012610961 0.013894710304025903 -3.9547718238958352e-05 9.5924995227915988e-08 1.3808892869170537e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Base_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="DC5V_JACK.STEP" uid="DC5V_JACK.STEP*:*默认" version="146">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DC5V_JACK.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0061853280161075913</Mass>
+<CenterOfMass>-3.1564962385045296e-06 1.1493329989657216e-07 0.0047718769790357123</CenterOfMass>
+<Inertia>1.2955372717682068e-07 1.320519111515902e-07 9.8583209834286128e-08 1.3412336303848863e-11 2.4543961932000356e-10 2.3057108890667221e-12</Inertia>
+</MassProperties>
+<GeometryFile name="DC5V_JACK.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.53725490196078429" g="0.34901960784313724" b="0.33725490196078434" a="1"/>
+<Diffuse r="0.53725490196078429" g="0.34901960784313724" b="0.33725490196078434" a="1"/>
+<Specular r="0.37607843137254898" g="0.24431372549019606" b="0.23607843137254902" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0001.STEP" uid="Dummy-0001.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0001.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.40467189917948204</Mass>
+<CenterOfMass>-0.024685233848739871 -0.020265875140954546 -0.025666480677037359</CenterOfMass>
+<Inertia>0.00023712245084318167 0.00029136501838322287 0.000192489566721951 -7.0433500454863024e-05 8.0547341264398088e-05 4.5128263984264236e-05</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0001.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Diffuse r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Specular r="0.37058823529411761" g="0.3843137254901961" b="0.3843137254901961" a="1"/>
+<Emissive r="0.11117647058823529" g="0.11529411764705882" b="0.11529411764705882" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0002.STEP" uid="Dummy-0002.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0002.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.2110343946243031</Mass>
+<CenterOfMass>-0.0055781044723440722 0.19800030059481552 0.08156159996150153</CenterOfMass>
+<Inertia>0.00025767164937026519 0.00023489754170372937 3.7643950416454242e-05 -1.0746625554975195e-07 2.2344504872691622e-05 -2.7215734757228172e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0002.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Diffuse r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Specular r="0.37058823529411761" g="0.3843137254901961" b="0.3843137254901961" a="1"/>
+<Emissive r="0.11117647058823529" g="0.11529411764705882" b="0.11529411764705882" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0003.STEP" uid="Dummy-0003.STEP*:*默认" version="157">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0003.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.14029777073873692</Mass>
+<CenterOfMass>-0.037694345714510476 0.197999851083665 0.13605949952694385</CenterOfMass>
+<Inertia>0.00011770360708519109 0.00012128082482061256 3.5625633800807666e-05 -8.4309534703656205e-10 -2.5134160019749032e-05 2.6312297993591942e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0003.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Diffuse r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Specular r="0.37058823529411761" g="0.3843137254901961" b="0.3843137254901961" a="1"/>
+<Emissive r="0.11117647058823529" g="0.11529411764705882" b="0.11529411764705882" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0004.STEP" uid="Dummy-0004.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0004.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.0047162475719098</Mass>
+<CenterOfMass>-0.014999997792371482 -0.072056912662278566 -0.030477182159779622</CenterOfMass>
+<Inertia>0.0031755441714643529 0.0040839113069694125 0.0034662898131599144 4.8445839520776174e-05 1.3350327656420874e-10 -5.8385805960324412e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0004.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Diffuse r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Specular r="0.37058823529411761" g="0.3843137254901961" b="0.3843137254901961" a="1"/>
+<Emissive r="0.11117647058823529" g="0.11529411764705882" b="0.11529411764705882" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0006.STEP" uid="Dummy-0006.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0006.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.41733938831584921</Mass>
+<CenterOfMass>-0.015000000000000003 -0.12215670362017396 -0.034609291411104845</CenterOfMass>
+<Inertia>0.0004574579068803676 0.00090157132133188947 0.0004518362544285255 -1.0708083373257293e-07 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0006.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0007(外壳).STEP" uid="Dummy-0007(外壳).STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0007(外壳).STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.020742613232352422</Mass>
+<CenterOfMass>0.012227746800531422 0.19800127743452153 0.075155106993308018</CenterOfMass>
+<Inertia>2.5827705872726621e-05 2.3568126883993308e-05 2.6811507317291285e-06 -1.426294360305548e-10 -2.6109469685428345e-07 -2.0920705219714273e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0007(外壳).STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Diffuse r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Specular r="0.14901960784313725" g="0.14901960784313725" b="0.14901960784313725" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.80000001192092896</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0008.STEP" uid="Dummy-0008.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0008.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.33231222918892961</Mass>
+<CenterOfMass>-0.026432842837149979 0.17885786669467607 -0.00088453662770295038</CenterOfMass>
+<Inertia>0.0002403484467266441 0.00012123452942135861 0.00029664228434224914 5.0681095069899708e-06 2.697388666996466e-06 -7.4767312961232705e-05</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0008.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Diffuse r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Specular r="0.37058823529411761" g="0.3843137254901961" b="0.3843137254901961" a="1"/>
+<Emissive r="0.11117647058823529" g="0.11529411764705882" b="0.11529411764705882" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0009.STEP" uid="Dummy-0009.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0009.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.59299662375335371</Mass>
+<CenterOfMass>-0.015147980286291753 0.074216282224802657 0.00030251286632863948</CenterOfMass>
+<Inertia>0.001797992986030136 0.00034891164597227077 0.0018822587397807405 -1.8244621029493876e-05 3.0528600395872314e-06 0.00049641518041511476</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0009.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Diffuse r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Specular r="0.37058823529411761" g="0.3843137254901961" b="0.3843137254901961" a="1"/>
+<Emissive r="0.11117647058823529" g="0.11529411764705882" b="0.11529411764705882" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0011.STEP" uid="Dummy-0011.STEP*:*默认" version="146">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0011.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10441965237477001</Mass>
+<CenterOfMass>-0.015992138548877547 0.19799994187453338 0.022599782392793116</CenterOfMass>
+<Inertia>1.2701525029534111e-05 1.0302467516378889e-05 1.723425072940172e-05 7.9417071397956041e-11 4.9590699323121262e-07 -7.497163635640063e-12</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0011.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Diffuse r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Specular r="0.37058823529411761" g="0.3843137254901961" b="0.3843137254901961" a="1"/>
+<Emissive r="0.11117647058823529" g="0.11529411764705882" b="0.11529411764705882" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0012（外壳）.STEP" uid="Dummy-0012（外壳）.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0012（外壳）.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.19480742373237039</Mass>
+<CenterOfMass>0.015810757174702966 0.027061611561971431 1.5315206285111065e-07</CenterOfMass>
+<Inertia>0.00023840516086475654 3.7670661061905381e-05 0.00020549532058640129 -7.682234099881448e-10 1.7895471971499929e-10 -4.1599078577651803e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0012（外壳）.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0013.STEP" uid="Dummy-0013.STEP*:*默认" version="142">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0013.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0013611185791126779</Mass>
+<CenterOfMass>0.0019495017397275322 0 0</CenterOfMass>
+<Inertia>2.7646055409841721e-07 1.3918004122863523e-07 1.3918004122863523e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0013.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Specular r="0.69709803921568625" g="0.72125490196078434" b="0.8178823529411765" a="1"/>
+<Emissive r="0.16635294117647056" g="0.17211764705882351" b="0.19517647058823528" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0016.STEP" uid="Dummy-0016.STEP*:*默认" version="156">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0016.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.020153945191309239</Mass>
+<CenterOfMass>-0.014999999999999999 -0.081500000000000003 0.010999999999999999</CenterOfMass>
+<Inertia>4.3381618948608035e-06 4.3381618948608026e-06 8.5554001185737514e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0016.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0017.STEP" uid="Dummy-0017.STEP*:*默认" version="148">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0017.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.014211296904101518</Mass>
+<CenterOfMass>-4.7390028836932434e-05 -0.05354452128517035 0.031453513092740741</CenterOfMass>
+<Inertia>5.5046795896100886e-06 8.9608289989470296e-06 4.38643334354541e-06 -1.4507826442364827e-07 9.6863092805088062e-08 7.8844141064502747e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0017.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Diffuse r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Specular r="0.14901960784313725" g="0.14901960784313725" b="0.14901960784313725" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.80000001192092896</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0018.STEP" uid="Dummy-0018.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0018.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.029368515200559029</Mass>
+<CenterOfMass>0.00073491552607891344 -0.010500000000000001 -0.002846029905599155</CenterOfMass>
+<Inertia>3.4064452956564389e-06 8.495726612299096e-06 5.1330100797998342e-06 0 3.5698261415330979e-08 0</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0018.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.53725490196078429" g="0.34901960784313724" b="0.33725490196078434" a="1"/>
+<Diffuse r="0.53725490196078429" g="0.34901960784313724" b="0.33725490196078434" a="1"/>
+<Specular r="0.37607843137254898" g="0.24431372549019606" b="0.23607843137254902" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0019.STEP" uid="Dummy-0019.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0019.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.049677627827876582</Mass>
+<CenterOfMass>0.00027659474943776967 -0.017765555498499411 -0.00011159040691160976</CenterOfMass>
+<Inertia>7.1948735714052844e-06 1.4909022909548333e-05 8.0189709943814522e-06 -2.3927840502222967e-08 -1.766746885608989e-09 -2.5168328367149666e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0019.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0020.STEP" uid="Dummy-0020.STEP*:*默认" version="149">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0020.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.01540988453201652</Mass>
+<CenterOfMass>-0.0023317187318311573 0.0020183395256287741 0.018044637577907512</CenterOfMass>
+<Inertia>1.8802533478136424e-06 2.0398043476862717e-06 3.8966358970059464e-06 1.1746357468974344e-08 -1.6038958634731461e-09 1.4038027897388816e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0020.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.53725490196078429" g="0.34901960784313724" b="0.33725490196078434" a="1"/>
+<Diffuse r="0.53725490196078429" g="0.34901960784313724" b="0.33725490196078434" a="1"/>
+<Specular r="0.37607843137254898" g="0.24431372549019606" b="0.23607843137254902" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0021.STEP" uid="Dummy-0021.STEP*:*默认" version="148">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0021.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.025341334313730722</Mass>
+<CenterOfMass>0.00043587797362922085 -0.00020309420423532775 0.010515810829154837</CenterOfMass>
+<Inertia>3.0873213295312614e-06 3.3013034740459178e-06 6.2000997874744667e-06 5.7800105765541003e-09 1.1269576343498366e-09 2.7858739926392729e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0021.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0022.STEP" uid="Dummy-0022.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0022.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.068528149722493631</Mass>
+<CenterOfMass>-0.014999999999999908 0.19800000000000015 -0.021312482637156457</CenterOfMass>
+<Inertia>1.611455990231805e-05 1.6114559902317959e-05 3.168267342298676e-05 0 0 -1.8342123258146981e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0022.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0026.STEP" uid="Dummy-0026.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0026.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.029828736747372228</Mass>
+<CenterOfMass>-0.031318483651339935 0.14600000000000002 -1.1417412362996088e-15</CenterOfMass>
+<Inertia>5.2287620070440793e-06 2.748493631446936e-06 2.7484936314469169e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0026.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0027.STEP" uid="Dummy-0027.STEP*:*默认" version="142">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0027.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00033207472106485146</Mass>
+<CenterOfMass>-0.029993253402626232 0.14600000000000002 -1.1276813973509315e-15</CenterOfMass>
+<Inertia>3.1012084325587951e-08 1.5544759358347066e-08 1.5544759358347069e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0027.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Specular r="0.69709803921568625" g="0.72125490196078434" b="0.8178823529411765" a="1"/>
+<Emissive r="0.16635294117647056" g="0.17211764705882351" b="0.19517647058823528" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0035.STEP" uid="Dummy-0035.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0035.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.099009449522065487</Mass>
+<CenterOfMass>0.00088974855052528345 -0.042658441359800001 0.037199837394702388</CenterOfMass>
+<Inertia>4.0934835052162893e-05 6.9951608507572003e-05 3.2073964362579934e-05 -7.6509508023235621e-07 1.7474168208802178e-06 1.353802271752483e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0035.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0036.STEP" uid="Dummy-0036.STEP*:*默认" version="142">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0036.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.8288160465625606e-05</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>2.1796333015067078e-10 2.179633301506707e-10 4.2595578518008475e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0036.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Specular r="0.69709803921568625" g="0.72125490196078434" b="0.8178823529411765" a="1"/>
+<Emissive r="0.16635294117647056" g="0.17211764705882351" b="0.19517647058823528" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dummy-0037.STEP" uid="Dummy-0037.STEP*:*默认" version="142">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Dummy-0037.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.005996919956129141</Mass>
+<CenterOfMass>-0.015000000000000001 -0.077867549833468469 -0.034999999999999996</CenterOfMass>
+<Inertia>1.3026189125393804e-06 2.5677162515382223e-06 1.3026189125393783e-06 0 3.5606316334944001e-08 0</Inertia>
+</MassProperties>
+<GeometryFile name="Dummy-0037.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Specular r="0.69709803921568625" g="0.72125490196078434" b="0.8178823529411765" a="1"/>
+<Emissive r="0.16635294117647056" g="0.17211764705882351" b="0.19517647058823528" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="D字轴 5-30.STEP" uid="D字轴 5-30.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="D字轴 5-30.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0041951379051863198</Mass>
+<CenterOfMass>0.003299999840300309 5.5884157282065155e-05 -0.00027058114910738729</CenterOfMass>
+<Inertia>1.2826427292263371e-08 3.1951799562394779e-07 3.2002082327908184e-07 0 1.26291865213774e-15 4.0942516390231512e-14</Inertia>
+</MassProperties>
+<GeometryFile name="D字轴 5-30.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="D字轴5-28.STEP" uid="D字轴5-28.STEP*:*默认" version="146">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="D字轴5-28.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0037964459364874525</Mass>
+<CenterOfMass>-0.033499999999998961 0.14600000000000007 0.00012003846505804508</CenterOfMass>
+<Inertia>1.1327965469464857e-08 2.5218401894413711e-07 2.5315016112208552e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="D字轴5-28.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Metal LED Illuminated Latching 16mm Power Push Button ON-OFF Switch 1_2V (1).STEP" uid="Metal LED Illuminated Latching 16mm Power Push Button ON-OFF Switch 1_2V (1).STEP*:*默认" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Metal LED Illuminated Latching 16mm Power Push Button ON-OFF Switch 1_2V (1).STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.032723504402458484</Mass>
+<CenterOfMass>-1.7207094202813197e-06 3.3060587756667399e-06 -0.0093974139819070057</CenterOfMass>
+<Inertia>1.7850296121106478e-06 1.7870105000590784e-06 1.0950549536395044e-06 2.846010089170787e-09 -4.3497624956823005e-10 4.7180763025675773e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Metal LED Illuminated Latching 16mm Power Push Button ON-OFF Switch 1_2V (1).STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="NSK 轴承 695ZZ.STEP" uid="NSK 轴承 695ZZ.STEP*:*默认" version="142">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="NSK 轴承 695ZZ.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00040941235461582141</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>5.4631479431836519e-09 5.4631479431836528e-09 1.0016148848606992e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="NSK 轴承 695ZZ.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Specular r="0.69709803921568625" g="0.72125490196078434" b="0.8178823529411765" a="1"/>
+<Emissive r="0.16635294117647056" g="0.17211764705882351" b="0.19517647058823528" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TB 同步带 GBN1302GT-60.STEP" uid="TB 同步带 GBN1302GT-60.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TB 同步带 GBN1302GT-60.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0037567467039859312</Mass>
+<CenterOfMass>0.022499999999999999 0.00024560665179517181 0</CenterOfMass>
+<Inertia>1.4204180696958904e-07 1.2238330892399855e-06 1.3433344159856591e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="TB 同步带 GBN1302GT-60.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TB 同步带 GBN1502GT-60.STEP" uid="TB 同步带 GBN1502GT-60.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TB 同步带 GBN1502GT-60.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00059022283616245715</Mass>
+<CenterOfMass>0.027499999999999959 0.00021414757949556908 0</CenterOfMass>
+<Inertia>2.28118737595473e-08 2.5967844481974348e-07 2.7894898156231606e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="TB 同步带 GBN1502GT-60.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Diffuse r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Specular r="0.14901960784313725" g="0.14901960784313725" b="0.14901960784313725" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.80000001192092896</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TB 同步轮 GPA20GT2060-A-H5.STEP" uid="TB 同步轮 GPA20GT2060-A-H5.STEP*:*默认" version="146">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TB 同步轮 GPA20GT2060-A-H5.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0075662987594068403</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>2.0125356549595025e-07 1.7959149806883637e-07 1.7959149806883632e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="TB 同步轮 GPA20GT2060-A-H5.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TB 同步轮 GPA20GT2060-B-H5.STEP" uid="TB 同步轮 GPA20GT2060-B-H5.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TB 同步轮 GPA20GT2060-B-H5.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.01525540039545014</Mass>
+<CenterOfMass>-0.0040992557466499975 0 0</CenterOfMass>
+<Inertia>4.6263063796243048e-07 5.5982619267601028e-07 5.5982619267601007e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="TB 同步轮 GPA20GT2060-B-H5.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tools" uid="Tools*:*默认" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tools.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10620032211734536</Mass>
+<CenterOfMass>0 0 0.0074999999999999997</CenterOfMass>
+<Inertia>1.5610762191763501e-05 1.5610762191763495e-05 2.725776483282706e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tools_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Diffuse r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Specular r="0.37058823529411761" g="0.3843137254901961" b="0.3843137254901961" a="1"/>
+<Emissive r="0.11117647058823529" g="0.11529411764705882" b="0.11529411764705882" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hex nuts, style 1-grades ab gb(GB_FASTENER_NUT_SNAB1 M3-N).STEP" uid="hex nuts, style 1-grades ab gb(GB_FASTENER_NUT_SNAB1 M3-N).STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="hex nuts, style 1-grades ab gb(GB_FASTENER_NUT_SNAB1 M3-N).STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00035306023823029751</Mass>
+<CenterOfMass>2.0468405146432232e-08 1.5741467314768046e-08 -0.0012002385469025727</CenterOfMass>
+<Inertia>1.0064186432687544e-09 1.0063261289438303e-09 1.7063778138885901e-09 1.5442743995407375e-14 -1.2636765525778295e-14 -8.7350574522158717e-15</Inertia>
+</MassProperties>
+<GeometryFile name="hex nuts- style 1-grades ab gb(GB_FASTENER_NUT_SNAB1 M3-N).STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="内六角螺丝 M3 x 10.STEP" uid="内六角螺丝 M3 x 10.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="内六角螺丝 M3 x 10.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00085359419098618601</Mass>
+<CenterOfMass>7.1493266958892716e-08 -1.031475472382966e-07 -0.008348912782540659</CenterOfMass>
+<Inertia>1.342098014206225e-08 1.3421525743180426e-08 2.2582594113846388e-09 -1.021866667139458e-12 3.8013020693623259e-12 -2.007229992163976e-14</Inertia>
+</MassProperties>
+<GeometryFile name="内六角螺丝 M3 x 10.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="内六角螺丝 M3 x 14.STEP" uid="内六角螺丝 M3 x 14.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="内六角螺丝 M3 x 14.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00093626106280002839</Mass>
+<CenterOfMass>2.7997084087725563e-07 4.2732295338363841e-08 -0.011531268929986788</CenterOfMass>
+<Inertia>1.9951217636904876e-08 1.9951769092289297e-08 2.3346541008853017e-09 -2.4876225798080012e-12 2.8065678283249116e-12 -6.1222899842733693e-16</Inertia>
+</MassProperties>
+<GeometryFile name="内六角螺丝 M3 x 14.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="内六角螺丝 M3 x 16.STEP" uid="内六角螺丝 M3 x 16.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="内六角螺丝 M3 x 16.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0011015724375339586</Mass>
+<CenterOfMass>5.7420374513090268e-08 -8.79996917550874e-08 -0.011814332394604192</CenterOfMass>
+<Inertia>3.8642956451044842e-08 3.8643879970525417e-08 2.488231100188958e-09 -1.7837271869411867e-12 6.3358713426017052e-12 -2.1734370902849768e-14</Inertia>
+</MassProperties>
+<GeometryFile name="内六角螺丝 M3 x 16.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="内六角螺丝 M3-10.STEP" uid="内六角螺丝 M3-10.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="内六角螺丝 M3-10.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00097229987557577696</Mass>
+<CenterOfMass>0.0049960805854014747 0 0</CenterOfMass>
+<Inertia>2.4722733262615563e-09 1.5747535735956779e-08 1.5747535735956779e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="内六角螺丝 M3-10.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="内六角螺丝 M3-25.STEP" uid="内六角螺丝 M3-25.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="内六角螺丝 M3-25.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0017463097656039619</Mass>
+<CenterOfMass>0.011864931575963888 0 0</CenterOfMass>
+<Inertia>3.3430344525432656e-09 1.3419658472225766e-07 1.3419658472225766e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="内六角螺丝 M3-25.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="内六角螺丝 M3-35.STEP" uid="内六角螺丝 M3-35.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="内六角螺丝 M3-35.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0022623163589560861</Mass>
+<CenterOfMass>0.016684094473343659 0 0</CenterOfMass>
+<Inertia>3.9235418700644036e-09 3.1659971681371633e-07 3.1659971681371633e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="内六角螺丝 M3-35.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="内六角螺丝 M3-40.STEP" uid="内六角螺丝 M3-40.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="内六角螺丝 M3-40.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0025203196556321476</Mass>
+<CenterOfMass>0.019121444166747922 0 0</CenterOfMass>
+<Inertia>4.2137955788249736e-09 4.4856874761612468e-07 4.4856874761612468e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="内六角螺丝 M3-40.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="内六角螺丝 M3-45.STEP" uid="内六角螺丝 M3-45.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="内六角螺丝 M3-45.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0027783229523082099</Mass>
+<CenterOfMass>0.021570429646140303 0 0</CenterOfMass>
+<Inertia>4.5040492875855437e-09 6.1202566385084931e-07 6.1202566385084931e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="内六角螺丝 M3-45.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="内六角螺丝 M3-5.STEP" uid="内六角螺丝 M3-5.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="内六角螺丝 M3-5.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00071429657889971506</Mass>
+<CenterOfMass>0.0030104242120735148 0 0</CenterOfMass>
+<Inertia>2.1820196175009875e-09 4.4512242423044021e-09 4.4512242423044021e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="内六角螺丝 M3-5.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="内六角螺丝 M3-8.STEP" uid="内六角螺丝 M3-8.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="内六角螺丝 M3-8.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00086909855690535181</Mass>
+<CenterOfMass>0.0041651725209439338 0 0</CenterOfMass>
+<Inertia>2.3561718427573293e-09 1.0001900977940642e-08 1.0001900977940641e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="内六角螺丝 M3-8.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="内六角螺丝 M4-12.STEP" uid="内六角螺丝 M4-12.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="内六角螺丝 M4-12.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0020857586936238832</Mass>
+<CenterOfMass>0.0062709183098614068 0 0</CenterOfMass>
+<Inertia>8.8296991873767494e-09 5.1002372860495353e-08 5.1002372860495353e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="内六角螺丝 M4-12.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="内六角螺丝 M4-16.STEP" uid="内六角螺丝 M4-16.STEP*:*默认" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="内六角螺丝 M4-16.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0024526967155631711</Mass>
+<CenterOfMass>0.0080227663358275348 0 0</CenterOfMass>
+<Inertia>9.5635752312553229e-09 9.4646005625028395e-08 9.4646005625028395e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="内六角螺丝 M4-16.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="内六角螺丝 M4-20.STEP" uid="内六角螺丝 M4-20.STEP*:*默认" version="142">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="内六角螺丝 M4-20.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00038625133390444646</Mass>
+<CenterOfMass>0.0098392017307044107 0 0</CenterOfMass>
+<Inertia>1.4106097637169726e-09 2.1601063291674048e-08 2.1601063291674048e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="内六角螺丝 M4-20.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Specular r="0.69709803921568625" g="0.72125490196078434" b="0.8178823529411765" a="1"/>
+<Emissive r="0.16635294117647056" g="0.17211764705882351" b="0.19517647058823528" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="平垫片 M3.STEP" uid="平垫片 M3.STEP*:*默认" version="142">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="平垫片 M3.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.4702653618800232e-05</Mass>
+<CenterOfMass>0 0 -0.00025000000000000001</CenterOfMass>
+<Inertia>5.5955849230883888e-11 5.5955849230883895e-11 1.1129908789431779e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="平垫片 M3.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Specular r="0.69709803921568625" g="0.72125490196078434" b="0.8178823529411765" a="1"/>
+<Emissive r="0.16635294117647056" g="0.17211764705882351" b="0.19517647058823528" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="普赢 减速机 minif-11-50.STEP" uid="普赢 减速机 minif-11-50.STEP*:*默认" version="164">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="普赢 减速机 minif-11-50.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.2535936848114238</Mass>
+<CenterOfMass>-0.014437220450421869 5.7566828620503997e-05 -0.00018613064501955698</CenterOfMass>
+<Inertia>6.2844097879723962e-05 5.9451484139895109e-05 5.9444176212015101e-05 -2.3185486600769172e-07 4.3242155306821675e-08 5.5091292790069681e-09</Inertia>
+</MassProperties>
+<GeometryFile name="普赢 减速机 minif-11-50.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="普赢min8-50 谐波减速器.STEP" uid="普赢min8-50 谐波减速器.STEP*:*默认" version="176">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="普赢min8-50 谐波减速器.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.12017249952563885</Mass>
+<CenterOfMass>1.0306969838577417e-07 -1.0176579508292948e-06 0.077261029064181724</CenterOfMass>
+<Inertia>1.7567611391892113e-05 1.7570630453920307e-05 1.7340260466302003e-05 2.7989196747719777e-09 -1.0754806516061785e-09 -4.7283022721032807e-08</Inertia>
+</MassProperties>
+<GeometryFile name="普赢min8-50 谐波减速器.STEP_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
