@@ -88,5 +88,5 @@
 
 ## 参考资料
 
-- [MATLAB Simscape Multibody 官方文档](https://www. mathworks.com/products/simscape-multibody.html)
-- [Reinforcement Learning Toolbox](https://www.mathworks. com/products/reinforcement-learning.html)
+- [MATLAB Simscape Multibody 官方文档](https://www.mathworks.com/products/simscape-multibody.html)
+- [Reinforcement Learning Toolbox](https://www.mathworks.com/products/reinforcement-learning.html)
