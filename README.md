@@ -33,6 +33,7 @@
 **XB4 机器人仿真项目**
 - XB4 型号机器人的建模与控制
 - 子目录：`Code/`（代码）、`Mode/`（模式配置）
+- 详细使用说明请参考 [XB4-Robot/README.md](./XB4-Robot/README.md)
 
 ---
 
