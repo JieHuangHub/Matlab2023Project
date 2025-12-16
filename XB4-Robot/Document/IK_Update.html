@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>IK_Update.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h2 id="%E4%B8%80%E7%AC%A6%E5%8F%B7%E5%AE%9A%E4%B9%89">一、符号定义</h2>
+<h3 id="11-mdh%E5%8F%82%E6%95%B0%E5%B8%B8%E9%87%8F">1.1 MDH参数（常量）</h3>
+<table>
+<thead>
+<tr>
+<th>符号</th>
+<th>值 (m)</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>d₁</td>
+<td>0.342</td>
+<td>基座高度</td>
+</tr>
+<tr>
+<td>a₁</td>
+<td>0.040</td>
+<td>肩关节偏移</td>
+</tr>
+<tr>
+<td>a₂</td>
+<td>0.275</td>
+<td>大臂长度</td>
+</tr>
+<tr>
+<td>a₃</td>
+<td>0.025</td>
+<td>小臂偏移</td>
+</tr>
+<tr>
+<td>d₄</td>
+<td>0.280</td>
+<td>腕部偏移</td>
+</tr>
+<tr>
+<td>dₜ</td>
+<td>0.073</td>
+<td>末端工具长度</td>
+</tr>
+</tbody>
+</table>
+<h3 id="12-%E5%90%84%E5%85%B3%E8%8A%82mdh%E5%8F%82%E6%95%B0%E8%A1%A8">1.2 各关节MDH参数表</h3>
+<table>
+<thead>
+<tr>
+<th>关节 i</th>
+<th>α(i-1)</th>
+<th>a(i-1)</th>
+<th>d_i</th>
+<th>θ_offset</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>d₁</td>
+<td>0</td>
+<td>基座高度</td>
+</tr>
+<tr>
+<td>2</td>
+<td>-90°</td>
+<td>a₁</td>
+<td>0</td>
+<td>-90°</td>
+<td>肩关节偏移</td>
+</tr>
+<tr>
+<td>3</td>
+<td>0</td>
+<td>a₂</td>
+<td>0</td>
+<td>0</td>
+<td>大臂</td>
+</tr>
+<tr>
+<td>4</td>
+<td>-90°</td>
+<td>a₃</td>
+<td>d₄</td>
+<td>0</td>
+<td>小臂、腕部</td>
+</tr>
+<tr>
+<td>5</td>
+<td>90°</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>腕关节</td>
+</tr>
+<tr>
+<td>6</td>
+<td>-90°</td>
+<td>0</td>
+<td>dₜ</td>
+<td>0</td>
+<td>末端工具</td>
+</tr>
+</tbody>
+</table>
+<h3 id="13-%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E7%AE%80%E5%86%99">1.3 三角函数简写</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">简写</th>
+<th style="text-align:left">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$c_i$</td>
+<td style="text-align:left">$\cos(\theta_i)$</td>
+</tr>
+<tr>
+<td style="text-align:center">$s_i$</td>
+<td style="text-align:left">$\sin(\theta_i)$</td>
+</tr>
+<tr>
+<td style="text-align:center">$c_{ij}$</td>
+<td style="text-align:left">$\cos(\theta_i + \theta_j)$</td>
+</tr>
+<tr>
+<td style="text-align:center">$s_{ij}$</td>
+<td style="text-align:left">$\sin(\theta_i + \theta_j)$</td>
+</tr>
+</tbody>
+</table>
+<h3 id="14-%E6%9C%AB%E7%AB%AF%E4%BD%8D%E5%A7%BF%E7%9F%A9%E9%98%B5">1.4 末端位姿矩阵</h3>
+<p>目标位姿矩阵 ${}^{0}T_{6}$ 定义为：</p>
+<p>$$
+{}^{0}T_{6} = \begin{bmatrix}
+n_x &amp; o_x &amp; a_x &amp; p_x \
+n_y &amp; o_y &amp; a_y &amp; p_y \
+n_z &amp; o_z &amp; a_z &amp; p_z \
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}
+= \begin{bmatrix}
+\vec{n} &amp; \vec{o} &amp; \vec{a} &amp; \vec{p} \
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}
+$$</p>
+<p>其中：</p>
+<ul>
+<li>$\vec{n} = (n_x, n_y, n_z)^T$：法向量（Normal）</li>
+<li>$\vec{o} = (o_x, o_y, o_z)^T$：方向向量（Orientation）</li>
+<li>$\vec{a} = (a_x, a_y, a_z)^T$：接近向量（Approach）</li>
+<li>$\vec{p} = (p_x, p_y, p_z)^T$：位置向量（Position）</li>
+</ul>
+<hr>
+<h2 id="%E4%BA%8C%E6%AD%A3%E8%BF%90%E5%8A%A8%E5%AD%A6">二、正运动学</h2>
+<h3 id="21-%E9%80%9A%E7%94%A8%E9%BD%90%E6%AC%A1%E5%8F%98%E6%8D%A2%E7%9F%A9%E9%98%B5mdh-convention">2.1 通用齐次变换矩阵（MDH Convention）</h3>
+<p>根据Modified DH参数，相邻坐标系间的齐次变换矩阵为：</p>
+<p>$$
+{}^{i-1}T_{i} = \begin{bmatrix}
+c_{\theta_i} &amp; -s_{\theta_i} &amp; 0 &amp; a_{i-1} \
+s_{\theta_i} c_{\alpha_{i-1}} &amp; c_{\theta_i} c_{\alpha_{i-1}} &amp; -s_{\alpha_{i-1}} &amp; -s_{\alpha_{i-1}} d_i \
+s_{\theta_i} s_{\alpha_{i-1}} &amp; c_{\theta_i} s_{\alpha_{i-1}} &amp; c_{\alpha_{i-1}} &amp; c_{\alpha_{i-1}} d_i \
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}
+$$</p>
+<h3 id="22-%E5%90%84%E5%85%B3%E8%8A%82%E5%8F%98%E6%8D%A2%E7%9F%A9%E9%98%B5">2.2 各关节变换矩阵</h3>
+<h4 id="%E7%9F%A9%E9%98%B5-0t1">矩阵 ${}^{0}T_{1}$</h4>
+<p>$$
+{}^{0}T_{1} = \begin{bmatrix}
+c_1 &amp; -s_1 &amp; 0 &amp; 0 \
+s_1 &amp; c_1 &amp; 0 &amp; 0 \
+0 &amp; 0 &amp; 1 &amp; d_1 \
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}, \quad \theta_1 = q_1
+$$</p>
+<h4 id="%E7%9F%A9%E9%98%B5-1t2">矩阵 ${}^{1}T_{2}$</h4>
+<p>$$
+{}^{1}T_{2} = \begin{bmatrix}
+c_2 &amp; -s_2 &amp; 0 &amp; a_1 \
+0 &amp; 0 &amp; 1 &amp; 0 \
+-s_2 &amp; -c_2 &amp; 0 &amp; 0 \
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}, \quad \theta_2 = q_2 - \frac{\pi}{2}
+$$</p>
+<h4 id="%E7%9F%A9%E9%98%B5-2t3">矩阵 ${}^{2}T_{3}$</h4>
+<p>$$
+{}^{2}T_{3} = \begin{bmatrix}
+c_3 &amp; -s_3 &amp; 0 &amp; a_2 \
+s_3 &amp; c_3 &amp; 0 &amp; 0 \
+0 &amp; 0 &amp; 1 &amp; 0 \
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}, \quad \theta_3 = q_3
+$$</p>
+<h4 id="%E7%9F%A9%E9%98%B5-3t4">矩阵 ${}^{3}T_{4}$</h4>
+<p>$$
+{}^{3}T_{4} = \begin{bmatrix}
+c_4 &amp; -s_4 &amp; 0 &amp; a_3 \
+0 &amp; 0 &amp; 1 &amp; d_4 \
+-s_4 &amp; -c_4 &amp; 0 &amp; 0 \
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}, \quad \theta_4 = q_4
+$$</p>
+<h4 id="%E7%9F%A9%E9%98%B5-4t5">矩阵 ${}^{4}T_{5}$</h4>
+<p>$$
+{}^{4}T_{5} = \begin{bmatrix}
+c_5 &amp; -s_5 &amp; 0 &amp; 0 \
+0 &amp; 0 &amp; -1 &amp; 0 \
+s_5 &amp; c_5 &amp; 0 &amp; 0 \
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}, \quad \theta_5 = q_5
+$$</p>
+<h4 id="%E7%9F%A9%E9%98%B5-5t6">矩阵 ${}^{5}T_{6}$</h4>
+<p>$$
+{}^{5}T_{6} = \begin{bmatrix}
+c_6 &amp; -s_6 &amp; 0 &amp; 0 \
+0 &amp; 0 &amp; 1 &amp; d_t \
+-s_6 &amp; -c_6 &amp; 0 &amp; 0 \
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}, \quad \theta_6 = q_6
+$$</p>
+<hr>
+<h3 id="23-%E5%A4%8D%E5%90%88%E5%8F%98%E6%8D%A2%E7%9F%A9%E9%98%B5">2.3 复合变换矩阵</h3>
+<h4 id="%E7%9F%A9%E9%98%B5-1t3">矩阵 ${}^{1}T_{3}$</h4>
+<p>$$
+{}^{1}T_{3} = {}^{1}T_{2} \cdot {}^{2}T_{3} = \begin{bmatrix}
+c_{23} &amp; -s_{23} &amp; 0 &amp; a_2 c_2 + a_1 \
+0 &amp; 0 &amp; 1 &amp; 0 \
+-s_{23} &amp; -c_{23} &amp; 0 &amp; -a_2 s_2 \
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}
+$$</p>
+<h4 id="%E7%9F%A9%E9%98%B5-4t6">矩阵 ${}^{4}T_{6}$</h4>
+<p>$$
+{}^{4}T_{6} = {}^{4}T_{5} \cdot {}^{5}T_{6} = \begin{bmatrix}
+c_5 c_6 &amp; -c_5 s_6 &amp; -s_5 &amp; -d_t s_5 \
+s_6 &amp; c_6 &amp; 0 &amp; 0 \
+s_5 c_6 &amp; -s_5 s_6 &amp; c_5 &amp; d_t c_5 \
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}
+$$</p>
+<h4 id="%E7%9F%A9%E9%98%B5-3t6">矩阵 ${}^{3}T_{6}$</h4>
+<p>$$
+{}^{3}T_{6} = {}^{3}T_{4} \cdot {}^{4}T_{6} = \begin{bmatrix}
+n_{x}^{(36)} &amp; o_{x}^{(36)} &amp; a_{x}^{(36)} &amp; p_{x}^{(36)} \
+n_{y}^{(36)} &amp; o_{y}^{(36)} &amp; a_{y}^{(36)} &amp; p_{y}^{(36)} \
+n_{z}^{(36)} &amp; o_{z}^{(36)} &amp; a_{z}^{(36)} &amp; p_{z}^{(36)} \
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}
+$$</p>
+<p><strong>${}^{3}T_{6}$ 元素展开：</strong></p>
+<p>| 向量 | x 分量 | y 分量 | z 分量 |
+|:----<img class="emoji" alt="neutral_face" src="data:image/png;base64,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" />:------<img class="emoji" alt="neutral_face" src="data:image/png;base64,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" />: ------<img class="emoji" alt="neutral_face" src="data:image/png;base64,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" />:------<img class="emoji" alt="neutral_face" src="data:image/png;base64,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" />
+| $\vec{n}^{(36)}$ | $c_4 c_5 c_6 - s_4 s_6$ | $s_5 c_6$ | $-s_4 c_5 c_6 - c_4 s_6$ |
+| $\vec{o}^{(36)}$ | $-c_4 c_5 s_6 - s_4 c_6$ | $-s_5 s_6$ | $s_4 c_5 s_6 - c_4 c_6$ |
+| $\vec{a}^{(36)}$ | $-c_4 s_5$ | $c_5$ | $s_4 s_5$ |
+| $\vec{p}^{(36)}$ | $a_3 - d_t c_4 s_5$ | $d_4 + d_t c_5$ | $d_t s_4 s_5$ |</p>
+<h4 id="%E7%9F%A9%E9%98%B5-1t6">矩阵 ${}^{1}T_{6}$</h4>
+<p>$$
+{}^{1}T_{6} = {}^{1}T_{3} \cdot {}^{3}T_{6} = \begin{bmatrix}
+n_{x}^{(16)} &amp; o_{x}^{(16)} &amp; a_{x}^{(16)} &amp; p_{x}^{(16)} \
+n_{y}^{(16)} &amp; o_{y}^{(16)} &amp; a_{y}^{(16)} &amp; p_{y}^{(16)} \
+n_{z}^{(16)} &amp; o_{z}^{(16)} &amp; a_{z}^{(16)} &amp; p_{z}^{(16)} \
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}
+$$</p>
+<p><strong>${}^{1}T_{6}$ 结构展开：</strong></p>
+<p>$$
+{}^{1}T_{6} = \begin{bmatrix}
+c_{23} n_{x}^{(36)} - s_{23} n_{y}^{(36)} &amp; c_{23} o_{x}^{(36)} - s_{23} o_{y}^{(36)} &amp; c_{23} a_{x}^{(36)} - s_{23} a_{y}^{(36)} &amp; p_{x}^{(16)} \
+n_{z}^{(36)} &amp; o_{z}^{(36)} &amp; a_{z}^{(36)} &amp; p_{y}^{(16)} \
+-s_{23} n_{x}^{(36)} - c_{23} n_{y}^{(36)} &amp; -s_{23} o_{x}^{(36)} - c_{23} o_{y}^{(36)} &amp; -s_{23} a_{x}^{(36)} - c_{23} a_{y}^{(36)} &amp; p_{z}^{(16)} \
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}
+$$</p>
+<p><strong>位置向量 $\vec{p}^{(16)}$ 展开：</strong></p>
+<p>$$
+\begin{aligned}
+p_{x}^{(16)} &amp;= c_{23}(a_3 - d_t c_4 s_5) - s_{23}(d_4 + d_t c_5) + a_2 c_2 + a_1 \
+p_{y}^{(16)} &amp;= d_t s_4 s_5 \
+p_{z}^{(16)} &amp;= -s_{23}(a_3 - d_t c_4 s_5) - c_{23}(d_4 + d_t c_5) - a_2 s_2
+\end{aligned}
+$$</p>
+<hr>
+<h3 id="24-%E6%9C%80%E7%BB%88%E6%AD%A3%E8%BF%90%E5%8A%A8%E5%AD%A6">2.4 最终正运动学</h3>
+<p>$$
+{}^{0}T_{6} = {}^{0}T_{1} \cdot {}^{1}T_{6} = \begin{bmatrix}
+r_{11} &amp; r_{12} &amp; r_{13} &amp; p_x \
+r_{21} &amp; r_{22} &amp; r_{23} &amp; p_y \
+r_{31} &amp; r_{32} &amp; r_{33} &amp; p_z \
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}
+$$</p>
+<h4 id="241-%E4%BD%8D%E7%BD%AE%E5%90%91%E9%87%8F">2.4.1 位置向量</h4>
+<p>$$
+\begin{aligned}
+p_x &amp;= c_1 \left[ c_{23}(a_3 - d_t c_4 s_5) - s_{23}(d_4 + d_t c_5) + a_2 c_2 + a_1 \right] - s_1 \left[ d_t s_4 s_5 \right] \[6pt]
+p_y &amp;= s_1 \left[ c_{23}(a_3 - d_t c_4 s_5) - s_{23}(d_4 + d_t c_5) + a_2 c_2 + a_1 \right] + c_1 \left[ d_t s_4 s_5 \right] \[6pt]
+p_z &amp;= -s_{23}(a_3 - d_t c_4 s_5) - c_{23}(d_4 + d_t c_5) - a_2 s_2 + d_1
+\end{aligned}
+$$</p>
+<h4 id="242-%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5">2.4.2 旋转矩阵</h4>
+<p><strong>第一列（法向量 $\vec{n}$）：</strong></p>
+<p>$$
+\begin{aligned}
+r_{11} &amp;= c_1 \left[ c_{23}(c_4 c_5 c_6 - s_4 s_6) - s_{23} s_5 c_6 \right] - s_1 \left[ -s_4 c_5 c_6 - c_4 s_6 \right] \[6pt]
+r_{21} &amp;= s_1 \left[ c_{23}(c_4 c_5 c_6 - s_4 s_6) - s_{23} s_5 c_6 \right] + c_1 \left[ -s_4 c_5 c_6 - c_4 s_6 \right] \[6pt]
+r_{31} &amp;= -s_{23}(c_4 c_5 c_6 - s_4 s_6) - c_{23} s_5 c_6
+\end{aligned}
+$$</p>
+<p><strong>第二列（方向向量 $\vec{o}$）：</strong></p>
+<p>$$
+\begin{aligned}
+r_{12} &amp;= c_1 \left[ c_{23}(-c_4 c_5 s_6 - s_4 c_6) + s_{23} s_5 s_6 \right] - s_1 \left[ s_4 c_5 s_6 - c_4 c_6 \right] \[6pt]
+r_{22} &amp;= s_1 \left[ c_{23}(-c_4 c_5 s_6 - s_4 c_6) + s_{23} s_5 s_6 \right] + c_1 \left[ s_4 c_5 s_6 - c_4 c_6 \right] \[6pt]
+r_{32} &amp;= -s_{23}(-c_4 c_5 s_6 - s_4 c_6) + c_{23} s_5 s_6
+\end{aligned}
+$$</p>
+<p><strong>第三列（接近向量 $\vec{a}$）：</strong></p>
+<p>$$
+\begin{aligned}
+r_{13} &amp;= c_1 \left[ -c_{23} c_4 s_5 - s_{23} c_5 \right] - s_1 \left[ s_4 s_5 \right] \[6pt]
+r_{23} &amp;= s_1 \left[ -c_{23} c_4 s_5 - s_{23} c_5 \right] + c_1 \left[ s_4 s_5 \right] \[6pt]
+r_{33} &amp;= s_{23} c_4 s_5 - c_{23} c_5
+\end{aligned}
+$$</p>
+<hr>
+<blockquote>
+<p><strong>注：</strong> 旋转矩阵各元素可通过将 ${}^{3}T_{6}$ 中的 $n^{(36)}$、$o^{(36)}$、$a^{(36)}$ 代入 ${}^{1}T_{6}$ 的表达式，再与 ${}^{0}T_{1}$ 相乘得到。</p>
+</blockquote>
+<p>令$\theta_1 = 0$, $\theta_2 = -90°$, $\theta_3 = 0$, $\theta_4 = 0$, $\theta_5 = 0$, $\theta_6 = 0$，
+最终得到${}^{0}T_{6} $为</p>
+<p>$$
+{}^{0}T_{6} = \begin{bmatrix}
+0 &amp; 0 &amp; 1 &amp; d_4 + d_t + a_1 \
+0 &amp; -1 &amp; 0 &amp; 0 \
+1 &amp; 0 &amp; 0 &amp; a_3 + a_2 + d_1 \
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}
+$$</p>
+<h2 id="%E4%B8%89%E9%80%86%E8%BF%90%E5%8A%A8%E5%AD%A6">三、逆运动学</h2>
+<p>$$
+{}^{0}T_{6} = \begin{bmatrix}
+n_x &amp; o_x &amp; a_x &amp; p_x \
+n_y &amp; o_y &amp; a_y &amp; p_y \
+n_z &amp; o_z &amp; a_z &amp; p_z \
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}
+=  {}^{0}T_{1} \cdot {}^{1}T_{2} \cdot {}^{2}T_{3} \cdot {}^{3}T_{4} \cdot {}^{4}T_{5} \cdot {}^{5}T_{6}
+$$</p>
+<h3 id="31-%E6%B1%82%E8%A7%A3-theta1">3.1 求解 $\theta_1$</h3>
+<h4 id="%E6%AD%A5%E9%AA%A41%E6%9E%84%E5%BB%BA%E6%96%B9%E7%A8%8B">步骤1：构建方程</h4>
+<p>从矩阵方程 $\left({}^{0}T_{1}\right)^{-1} \cdot {}^{0}T_{6}  = {}^{1}T_{6}$ 的 (2,4) 和 (2,3) 元素：
+$$
+\left({}^{0}T_{1}\right)^{-1} \cdot {}^{0}T_{6} =
+\begin{bmatrix}
+c_1 &amp; s_1 &amp; 0 &amp; 0 \
+-s_1 &amp; c_1 &amp; 0 &amp; 0 \
+0 &amp; 0 &amp; 1 &amp; -d_1 \
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}
+\begin{bmatrix}
+n_x &amp; o_x &amp; a_x &amp; p_x \
+n_y &amp; o_y &amp; a_y &amp; p_y \
+n_z &amp; o_z &amp; a_z &amp; p_z \
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}
+= {}^{1}T_{6}
+$$</p>
+<p>$$
+-s_1p_x + c_1p_y = d_t(s_4s_5) \quad \text{.. .(1)}
+$$</p>
+<p>$$
+-s_1a_x + c_1a_y = s_4s_5 \quad \text{...(2)}
+$$</p>
+<h4 id="%E6%AD%A5%E9%AA%A42%E6%B6%88%E5%85%83">步骤2：消元</h4>
+<p>将方程(2)代入方程(1)消去 $s_4s_5$：</p>
+<p>$$
+-s_1p_x + c_1p_y = d_t(-s_1a_x + c_1a_y)
+$$</p>
+<h4 id="%E6%AD%A5%E9%AA%A43%E6%95%B4%E7%90%86%E6%B1%82%E8%A7%A3">步骤3：整理求解</h4>
+<p>$$
+s_1(d_ta_x - p_x) = c_1(d_ta_y - p_y)
+$$</p>
+<h4 id="%F0%9F%94%B9-%E5%85%AC%E5%BC%8F1theta1-%E6%B1%82%E8%A7%A3%E5%85%AC%E5%BC%8F">🔹 公式1：$\theta_1$ 求解公式</h4>
+<p>$$
+\boxed{\theta_1 = \text{atan2}(p_y - d_ta_y, \ p_x - d_ta_x)}
+$$</p>
+<blockquote>
+<p><strong>物理意义</strong>：$(p_x - d_ta_x, p_y - d_ta_y)$ 是腕部中心点在基坐标系XY平面的投影</p>
+</blockquote>
+<hr>
+
+</body>
+</html>
