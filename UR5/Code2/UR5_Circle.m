@@ -20,9 +20,9 @@ ur5 = SerialLink(L, 'name', 'UR5');
 
 %% ========== 2. 生成空间圆轨迹 ==========
 % 这里的单位全部是 米 (m)
-n    = [0 0 1];          % 圆所在平面的法向量 (Z轴)
+n    = [1 0 0];          % 圆所在平面的法向量 (Z轴)
 r    = 0.1;              % 圆半径 (0.1m = 100mm)
-c    = [0.4 0.0 0.3];    % 圆心坐标 (米) -> 调整到了 UR5 的舒适工作区
+c    = [0.4 0.3 0.3];    % 圆心坐标 (米) -> 调整到了 UR5 的舒适工作区
 step = 50;               % 插值点数
 
 P = drawing_circle(n, r, c, step);   % P: [N x 3]
@@ -37,7 +37,7 @@ qrt = zeros(size(P,1), 6);
 for i = 1:size(P,1)
     % 【姿态设定】
     % 使用你调试通过的公式：transl(...) * rpy2tr(0, 0, pi, 'xyz')
-    T = transl(P(i,:)) * rpy2tr(0, pi/4, pi, 'xyz');
+    T = transl(P(i,:)) * rpy2tr(0, 0, pi, 'xyz');
     
     % 数值逆解 (ikunc)
     q = ur5.ikunc(T, ikInitGuess);
