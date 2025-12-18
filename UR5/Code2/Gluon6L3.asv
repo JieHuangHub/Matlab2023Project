@@ -1,0 +1,86 @@
+%% =========================================================
+%  Gluon 6L3 末端画圆轨迹 (语法还原 + 报错修复版)
+%  单位: mm
+%  MATLAB 2023b + Robotics Toolbox
+%% =========================================================
+
+clear; clc; close all;
+
+%% ========== 1. 建立机器人 DH 模型 (单位: mm) ==========
+% 严格对应你提供的参数和 Offset
+L(1) = Link('d', 105.03, 'a', 0,       'alpha',  pi/2, 'standard');
+L(2) = Link('d', 0,      'a', -174.42, 'alpha',  0,    'standard', 'offset', -pi/2);
+L(3) = Link('d', 0,      'a', -174.42, 'alpha',  0,    'standard');
+L(4) = Link('d', 75.66,  'a', 0,       'alpha',  pi/2, 'standard', 'offset', -pi/2);
+L(5) = Link('d', 80.09,  'a', 0,       'alpha', -pi/2, 'standard');
+L(6) = Link('d', 44.36,  'a', 0,       'alpha',  0,    'standard');
+
+gluon6l3 = SerialLink(L, 'name', 'Gluon 6L3', 'manufacturer', 'Infosos');
+
+%% ========== 2. 生成空间圆轨迹 ==========
+mm = 1;
+
+n    = [0 0 1];                 % 圆所在平面的法向量 (Z轴)
+r    = 60 * mm;                 % 圆半径 (mm)
+c    = [150 200 100] * mm;      % 圆心坐标 (mm)
+step = 50;                      % 插值点数
+
+% 调用画圆函数
+P = drawing_circle(n, r, c, step);   % P: [N x 3]
+
+%% ========== 3. 数值逆运动学求解 ==========
+% 使用 ikunc（无关节限位）
+ikInitGuess = zeros(1,6);       
+qrt = zeros(size(P,1),6);       
+
+for i = 1:size(P,1)
+    % 【还原参考代码写法】
+    
+    % 如果使用 (0,0,pi,'xyz') 则是绕 Z 转 180，Z 轴依然朝上
+    T = transl(P(i,:)) * rpy2tr(0, 0, pi, 'xyz');
+    
+    % 逆解求解
+    q = gluon6l3.ikunc(T, ikInitGuess);
+    
+    qrt(i,:) = q;
+    ikInitGuess = q;            % 保证解的连续性
+end
+
+%% ========== 4. 可视化 (修复报错关键步骤) ==========
+figure;
+
+% 定义工作空间范围 (mm)，必须手动指定以防止 axis 报错
+W = [-500 500 -500 500 -200 600]; 
+
+gluon6l3.plot(qrt, ...
+    'workspace', W, ...         % <--- 核心修复：传入工作空间 W
+    'tilesize', 100, ...        % 地板网格大小
+    'view', [45 30], ...        % 视角
+    'trail', {'r','LineWidth',2}); % 红色轨迹
+
+% 图形配置
+title('Gluon 6L3 End-Effector Circular Trajectory');
+xlabel('X (mm)'); ylabel('Y (mm)'); zlabel('Z (mm)');
+grid on; axis equal;
+
+%% ========== 附：画圆函数 ==========
+function points = drawing_circle(n, r, c, step)
+    theta = linspace(0, 2*pi, step)';
+    
+    % 构造平面内正交基向量
+    a = cross(n, [1 0 0]);
+    if norm(a) < 1e-6
+        a = cross(n, [0 1 0]);
+    end
+    b = cross(n, a);
+    
+    a = a / norm(a);
+    b = b / norm(b);
+    
+    % 圆参数方程
+    x = c(1) + r*(a(1)*cos(theta) + b(1)*sin(theta));
+    y = c(2) + r*(a(2)*cos(theta) + b(2)*sin(theta));
+    z = c(3) + r*(a(3)*cos(theta) + b(3)*sin(theta));
+    
+    points = [x y z];
+end
