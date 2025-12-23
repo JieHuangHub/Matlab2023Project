@@ -18,7 +18,6 @@
 
 
 % XB4 DH    [theta d a alpha]
-
 L1 = Link([ 0       0.342  0.040  -pi/2], 'standard');
 L2 = Link([ 0       0      0.275   0   ], 'standard'); 
 L3 = Link([ 0       0      0.025  -pi/2], 'standard');
