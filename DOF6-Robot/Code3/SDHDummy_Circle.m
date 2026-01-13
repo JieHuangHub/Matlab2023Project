@@ -10,15 +10,22 @@
 % 注意：你提供的参数格式是 Link([theta d a alpha], 'standard')
 % 第一列是theta(变量，填0即可)，第二列d，第三列a，第四列alpha
 
-L(1) = Link([ 0       0.1245   0.035  -pi/2], 'standard');
-L(2) = Link([ 0       0        0.146   0   ], 'standard');  
-L(3) = Link([ 0       0        0.052  -pi/2], 'standard');
-L(4) = Link([ 0       0.117    0       pi/2], 'standard');
-L(5) = Link([ 0       0        0      -pi/2], 'standard');
-L(6) = Link([ 0       0.0775   0       0   ], 'standard');
+% L(1) = Link([ 0       0.1245   0.035  -pi/2], 'standard');
+% L(2) = Link([ 0       0        0.146   0   ], 'standard');  
+% L(3) = Link([ 0       0        0.052  -pi/2], 'standard');
+% L(4) = Link([ 0       0.117    0       pi/2], 'standard');
+% L(5) = Link([ 0       0        0      -pi/2], 'standard');
+% L(6) = Link([ 0       0.0775   0       0   ], 'standard');
+
+L1 = Link('d', 0.1245, 'a', 0.035, 'alpha', -pi/2, 'standard');
+L2 = Link('d', 0,      'a', 0.146, 'alpha', 0,     'offset', -pi/2,'standard');
+L3 = Link('d', 0,      'a', 0.052, 'alpha', -pi/2, 'standard');
+L4 = Link('d', 0.117,  'a', 0,     'alpha', pi/2,  'standard');
+L5 = Link('d', 0,      'a', 0,     'alpha', -pi/2, 'standard');
+L6 = Link('d', 0.0775, 'a', 0,     'alpha', 0,     'standard');
 
 % 创建机器人对象
-my_robot = SerialLink(L, 'name', 'SmallRobot');
+my_robot = SerialLink([L1 L2 L3 L4 L5 L6], 'name', 'SmallRobot');
 
 %% ========== 2. 生成空间圆轨迹 ==========
 % 【重要调整】：因为这个机械臂比UR5小很多，必须修改圆心和半径
@@ -64,7 +71,7 @@ my_robot.plot(qrt, ...
     'tilesize', 0.1, ...          % 地板网格变小
     'view', [45 30], ...          % 视角
     'trail', {'r','LineWidth',2}, ... 
-    'noarrow');                   
+    'noarrow');
 
 title('Small Robot Circular Trajectory');
 xlabel('X (m)'); ylabel('Y (m)'); zlabel('Z (m)');

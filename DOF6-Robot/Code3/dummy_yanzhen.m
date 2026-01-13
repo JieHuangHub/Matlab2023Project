@@ -18,12 +18,32 @@
 % L6 = Link([ 0       0.073  0       0   ], 'standard');
 
 % SDHDummy DH
+% L1 = Link([ 0       0.1245   0.035  -pi/2], 'standard');
+% L2 = Link([ 0       0        0.146   0   ], 'standard');  % theta2 = q2 - pi/2
+% L3 = Link([ 0       0        0.052  -pi/2], 'standard');
+% L4 = Link([ 0       0.117    0       pi/2], 'standard');
+% L5 = Link([ 0       0        0      -pi/2], 'standard');
+% L6 = Link([ 0       0.0775   0       0   ], 'standard');
+
+% SDHDummy DH
 L1 = Link([ 0       0.1245   0.035  -pi/2], 'standard');
-L2 = Link([ 0       0        0.146   0   ], 'standard');  % theta2 = q2 - pi/2
+L2 = Link([ 0       0        0.146   0   ], 'standard', 'offset', -pi/2);  
 L3 = Link([ 0       0        0.052  -pi/2], 'standard');
 L4 = Link([ 0       0.117    0       pi/2], 'standard');
 L5 = Link([ 0       0        0      -pi/2], 'standard');
 L6 = Link([ 0       0.0775   0       0   ], 'standard');
+
+
+% SDHDummy DH
+% 转换后的Link对象定义（键值对形式）
+% L1 = Link('d', 0.1245, 'a', 0.035, 'alpha', -pi/2, 'standard');
+% L2 = Link('d', 0,      'a', 0.146, 'alpha', 0,     'offset', -pi/2,'standard');
+% L3 = Link('d', 0,      'a', 0.052, 'alpha', -pi/2, 'standard');
+% L4 = Link('d', 0.117,  'a', 0,     'alpha', pi/2,  'standard');
+% L5 = Link('d', 0,      'a', 0,     'alpha', -pi/2, 'standard');
+% L6 = Link('d', 0.0775, 'a', 0,     'alpha', 0,     'standard');
+
+
 
 % Revised SDH Dummy
 % L1 = Link([0       0.1245   0.035   -pi/2], 'standard'); % 显式指定标准DH

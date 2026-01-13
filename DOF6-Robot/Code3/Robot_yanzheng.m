@@ -58,13 +58,13 @@
 % L5 = Link([0, 0,         0,   pi/2], 'standard');  % Link5：α=90°
 % L6 = Link([0, 0.115,     0,  0    ], 'standard');  % Link6：α=0°
 
-% SDHDummy DH
-L1 = Link([ 0       0.1245   0.035  -pi/2], 'standard');
-L2 = Link([ 0       0        0.146   0   ], 'standard');  
-L3 = Link([ 0       0        0.052  -pi/2], 'standard');
-L4 = Link([ 0       0.117    0       pi/2], 'standard');
-L5 = Link([ 0       0        0      -pi/2], 'standard');
-L6 = Link([ 0       0.0775   0       0   ], 'standard');
+% SDHDummy DH  
+% L1 = Link([ 0       0.1245   0.035  -pi/2], 'standard');  %% aviable
+% L2 = Link([ 0       0        0.146   0   ], 'standard');  
+% L3 = Link([ 0       0        0.052  -pi/2], 'standard');
+% L4 = Link([ 0       0.117    0       pi/2], 'standard');
+% L5 = Link([ 0       0        0      -pi/2], 'standard');
+% L6 = Link([ 0       0.0775   0       0   ], 'standard');
 
 % XB4 MDH
 % L1 = Link([0, 0.342, 0,      0    ], 'modified', 'offset', 0);
@@ -73,6 +73,15 @@ L6 = Link([ 0       0.0775   0       0   ], 'standard');
 % L4 = Link([0, 0.280, 0.025, -pi/2 ], 'modified', 'offset', 0);
 % L5 = Link([0, 0,     0,      pi/2 ], 'modified', 'offset', 0);
 % L6 = Link([0, 0.073, 0,     -pi/2 ], 'modified', 'offset', 0);
+
+% XB4 MDH
+L1 = Link([0, 0.342, 0,      0    ], 'modified', 'offset', 0);
+L2 = Link([0, 0,     0, pi/2 ], 'modified', 'offset', 0);
+L3 = Link([0, 0,     0.275,  0    ], 'modified', 'offset', 0);
+L4 = Link([0, 0.280, 0, pi/2 ], 'modified', 'offset', 0);
+L5 = Link([0, 0,     0,      -pi/2 ], 'modified', 'offset', 0);
+L6 = Link([0, 0.073, 0,     pi/2 ], 'modified', 'offset', 0);
+
 
 % L1 = Link([0, 0.4,   0.18,  1.5708], 'standard', 'offset', 0);
 % L2 = Link([0, 0.135, 0.6,   3.14159], 'standard', 'offset', 0);

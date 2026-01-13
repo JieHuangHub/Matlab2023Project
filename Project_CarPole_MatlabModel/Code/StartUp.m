@@ -21,9 +21,9 @@ q_0 = 15;    % 5 15 20 30  -5 -15 -20 -30  degree
 %% controller
 LQR = 0;
 
-LSTM = 0;
+LSTM = 1;
 
-RL = 1;
+RL = 0;
 
 if LQR 
     
