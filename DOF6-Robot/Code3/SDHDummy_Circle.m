@@ -31,7 +31,7 @@ my_robot = SerialLink([L1 L2 L3 L4 L5 L6], 'name', 'SmallRobot');
 % 【重要调整】：因为这个机械臂比UR5小很多，必须修改圆心和半径
 % 否则目标点会超出工作空间
 
-n    = [1 0 0];          % 圆所在平面的法向量 (X轴方向，即在YZ平面画圆), [1 0 0]: Draw circle on the YZ plan.
+n    = [0 0 1];          % 圆所在平面的法向量 (X轴方向，即在YZ平面画圆), [1 0 0]: Draw circle on the YZ plan.
 r    = 0.04;             % 圆半径 (改为 0.04m = 40mm)
 c    = [0.15 0.0 0.15];  % 圆心坐标 (米) -> 调整到机械臂前方约 25cm 处
 step = 50;               % 插值点数
