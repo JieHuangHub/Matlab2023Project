@@ -1,7 +1,7 @@
 
 
 %% 1) 基本设置
-MODEL = 'New_PID';
+MODEL = 'New_PD';
 
 % 6 个可调 PD（建议写全路径，避免同名/层级导致选错块）
 TunedBlocks = strcat(MODEL, {'/PD1','/PD2','/PD3','/PD4','/PD5','/PD6'});
@@ -29,7 +29,7 @@ TR = TuningGoal.StepTracking(r, y, Ts, 0);   % r->y 跟踪（6x6 自动对应通
 Goals = TR;
 
 %% 4) 开始整定
-opt = looptuneOptions('RandomStart', 30, 'UseParallel', false);
+opt = looptuneOptions('RandomStart', 50, 'UseParallel', false);  % 30, 50
 [ST1, fSoft] = looptune(ST0, u, y, Goals, opt);
 
 %% 5) 写回参数
