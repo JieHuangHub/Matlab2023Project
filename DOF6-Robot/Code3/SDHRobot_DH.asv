@@ -9,13 +9,13 @@ clear; clc;
 % L(5) = Link('d', 0,      'a', 0,     'alpha', -pi/2, 'standard');
 % L(6) = Link('d', 0.0775, 'a', 0,     'alpha', 0,     'standard');
 
-% SDHDummy MDH
-L(1) = Link('d', 0.1245, 'a', 0,     'alpha', 0,     'modified');
-L(2) = Link('d', 0,      'a', 0.035, 'alpha', -pi/2, 'offset', -pi/2, 'modified');
-L(3) = Link('d', 0,      'a', 0.146, 'alpha', 0,     'modified');
-L(4) = Link('d', 0.117,  'a', 0.052, 'alpha', -pi/2, 'modified');
-L(5) = Link('d', 0,      'a', 0,     'alpha', pi/2,  'modified');
-L(6) = Link('d', 0.0775, 'a', 0,     'alpha', -pi/2, 'modified');
+
+L(1) = Link('d', 0.1245, 'a', 0.000, 'alpha', 0, 'standard');
+L(2) = Link('d', 0,      'a', 0.035, 'alpha', -pi/2,     'offset', -pi/2,'standard');
+L(3) = Link('d', 0,      'a', 0.146, 'alpha', 0, 'standard');
+L(4) = Link('d', 0.117,  'a', 0.052, 'alpha', -pi/2,  'standard');
+L(5) = Link('d', 0,      'a', 0,     'alpha', pi/2, 'standard');
+L(6) = Link('d', 0.0775, 'a', 0,     'alpha', -pi/2,     'standard');
 
 SDH_robot = SerialLink(L, 'name', 'SDHRobot');  % 直接传入Link数组
 
