@@ -1,5 +1,5 @@
 
-% clear; clc;
+clear; clc;
 
 % SDHDummy DH
 % L(1) = Link('d', 0.1245, 'a', 0.035, 'alpha', -pi/2, 'standard');

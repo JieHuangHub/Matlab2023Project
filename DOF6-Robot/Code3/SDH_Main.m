@@ -1,7 +1,7 @@
 
 
 % Creat Robot
-[SDHDummy, ArmInfo] = importrobot('SDHDummy');
+[SDHDummy, ArmInfo] = importrobot('URDFDummy4');  % URDFDummy  SDHDummy
 
 % qici bianhuan juzhen
 
